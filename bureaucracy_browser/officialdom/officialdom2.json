@@ -1,0 +1,1615 @@
+[
+    {
+        "id": "taichang",
+        "parentId": "emperor",
+        "title_ch": "太常",
+        "title_en": "Grand Master of Ceremonies",
+        "title_py": "Tàicháng",
+        "rank": "Zhong 2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "In charge of rites and sacrifices.",
+            "Presents the ritual procedures prior to sacrifices.",
+            "Assists the Son of Heaven during the performance of rituals.",
+            "Selects, tests, and reports on the competence of Erudites (bo shi).",
+            "Presents ritual procedures for major archery ceremonies, ceremonies honoring the elderly, and grand funerals.",
+            "Inspects the imperial mausoleums and ancestral temples on the last day of each month."
+        ],
+        "historical_notes": "Since the Eastern Han restoration (Zhongxing), ten previous offices under this agency were abolished. The Cisi Ling (Director of Sacrifices) originally belonged to the Taichang but was later transferred to the Shaofu."
+    },
+    {
+        "id": "taichang_cheng",
+        "parentId": "taichang",
+        "title_ch": "丞",
+        "title_en": "Assistant to the Grand Master of Ceremonies",
+        "title_py": "Chéng",
+        "rank": "Bi 1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "In charge of all minor rituals and sacrifices.",
+            "Oversees the general administrative affairs of the offices under the Taichang."
+        ],
+        "historical_notes": "The administrative bureau subordinates (yuanshi) fluctuate in number based on current operational tasks, a structural standard applied across all Nine Ministers (Qing)."
+    },
+    {
+        "id": "taishi_ling",
+        "parentId": "taichang",
+        "title_ch": "太史令",
+        "title_en": "Director of the Grand Astrologer",
+        "title_py": "Tàishǐ Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "In charge of celestial phenomena, astronomy, and the calendar.",
+            "Presents the new annual calendar to the throne at the end of each year.",
+            "Determines and presents auspicious dates and seasonal taboos for national sacrifices, funerals, and imperial marriages.",
+            "Records all state omens of good fortune, disasters, and astronomical anomalies."
+        ],
+        "historical_notes": "Following the restoration, the office of the Taibu Ling (Grand Diviner, 600 Shi) was completely abolished and its responsibilities were merged into the Taishi office."
+    },
+    {
+        "id": "taishi_cheng",
+        "parentId": "taishi_ling",
+        "title_ch": "丞",
+        "title_en": "Assistant to the Grand Astrologer",
+        "title_py": "Chéng",
+        "rank": null,
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assists the Director and shares responsibility for guarding the Mingtang (Hall of Light) and Lingtai (Imperial Observatory)."
+        ],
+        "historical_notes": "One of two assistants managing the physical and ceremonial security of the astrological complexes."
+    },
+    {
+        "id": "mingtang_lingtai_cheng",
+        "parentId": "taishi_ling",
+        "title_ch": "明堂及靈臺丞",
+        "title_en": "Assistant of the Hall of Light and Imperial Observatory",
+        "title_py": "Míngtáng jí Língtái Chéng",
+        "rank": "200 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Guards the Mingtang and Lingtai structures.",
+            "Supervises the observation of the sun, moon, stars, and atmospheric phenomena (qi) at the Lingtai."
+        ],
+        "historical_notes": "Directly subordinated to the Taishi bureau to ensure continuous, precise astronomical tracking."
+    },
+    {
+        "id": "bo_shi_jiu",
+        "parentId": "taichang",
+        "title_ch": "博士祭酒",
+        "title_en": "Libationer of the Erudites",
+        "title_py": "Bóshì Jìjiǔ",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Serves as the head of the imperial academic faculty.",
+            "Oversees the instructional quality and examination of classicist students."
+        ],
+        "historical_notes": "The position was originally titled Puye (Superviser), but was altered to Jijiu (Libationer) during the Eastern Han restoration."
+    },
+    {
+        "id": "bo_shi",
+        "parentId": "bo_shi_jiu",
+        "title_ch": "博士",
+        "title_en": "Erudite",
+        "title_py": "Bóshì",
+        "rank": "Bi 600 Shi",
+        "personnel_count": {
+            "base": 14,
+            "notes": "Divided across 14 official classical chairs"
+        },
+        "responsibilities": [
+            "Responsible for teaching and training canonical disciples in the Five Classics.",
+            "Acts as imperial consultants, receiving formal inquiries and providing authoritative advisement when the state faces doubtful or complex matters."
+        ],
+        "historical_notes": "The 14 Erudite chairs comprise: four for the Yi (Shi, Meng, Liangqiu, Jing), three for the Shangshu (Ouyang, Greater and Lesser Xiahou), three for the Shi (Lu, Qi, Han), two for the Li (Greater and Lesser Dai), and two for the Chunqiu (Gongyang Yan, Yan). Their salary rank was originally 400 Shi before being raised by Emperor Xuan."
+    },
+    {
+        "id": "taizhu_ling",
+        "parentId": "taichang",
+        "title_ch": "太祝令",
+        "title_en": "Director of the Grand Supplicant",
+        "title_py": "Tàizhù Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "In charge of all national sacrifices, specifically reading prayers and invocations.",
+            "Welcomes and sends off deities during state sacrificial rituals."
+        ],
+        "historical_notes": "Maintains the central ritual connection between the emperor and the state pantheon."
+    },
+    {
+        "id": "taizhu_cheng",
+        "parentId": "taizhu_ling",
+        "title_ch": "丞",
+        "title_en": "Assistant to the Grand Supplicant",
+        "title_py": "Chéng",
+        "rank": null,
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "In charge of minor invocation and sacrificial matters directed toward lesser deities."
+        ],
+        "historical_notes": "Acts as the deputy to the Grand Supplicant."
+    },
+    {
+        "id": "taizai_ling",
+        "parentId": "taichang",
+        "title_ch": "太宰令",
+        "title_en": "Director of the Grand Provisioner",
+        "title_py": "Tàizǎi Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "In charge of the sacrificial cooks' tools, cauldrons, tripods, and ritual food vessels.",
+            "Responsible for preparing, organizing, and arranging the sacrificial food offerings during national rituals."
+        ],
+        "historical_notes": "Manages the culinary logistics of state temples."
+    },
+    {
+        "id": "taizai_cheng",
+        "parentId": "taizai_ling",
+        "title_ch": "丞",
+        "title_en": "Assistant to the Grand Provisioner",
+        "title_py": "Chéng",
+        "rank": null,
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assists the Director in managing the cook's utensils and the preparation of sacrificial items."
+        ],
+        "historical_notes": "Deputy of the Taizai office."
+    },
+    {
+        "id": "dazi_yue_ling",
+        "parentId": "taichang",
+        "title_ch": "大子樂令",
+        "title_en": "Director of Music",
+        "title_py": "Dàzǐ Yuè Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "In charge of performance arts, imperial choreography, and music.",
+            "Presents formal requests to initiate performances during national sacrifices.",
+            "Manages the arrangement, sequence, and orchestration of music at grand imperial banquets."
+        ],
+        "historical_notes": "Responsible for managing the grand acoustic display of Han authority."
+    },
+    {
+        "id": "dazi_yue_cheng",
+        "parentId": "dazi_yue_ling",
+        "title_ch": "丞",
+        "title_en": "Assistant to the Director of Music",
+        "title_py": "Chéng",
+        "rank": null,
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assists the Director of Music in managing performers and managing ritual musical arrays."
+        ],
+        "historical_notes": "Deputy of the Dazi Yue office."
+    },
+    {
+        "id": "gaomiao_ling",
+        "parentId": "taichang",
+        "title_ch": "高廟令",
+        "title_en": "Director of the Temple of the High Ancestor",
+        "title_py": "Gāomiào Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Guards the ancestral temple of Emperor Gaozu (Liu Bang).",
+            "Oversees the physical inspection, sweeping, and cleaning of the temple grounds."
+        ],
+        "historical_notes": "The primary source explicitly notes that this ancestral office contains no Assistant (Cheng)."
+    },
+    {
+        "id": "shizumiao_ling",
+        "parentId": "taichang",
+        "title_ch": "世祖廟令",
+        "title_en": "Director of the Temple of the Generational Ancestor",
+        "title_py": "Shìzǔ Miào Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Guards the ancestral temple of Emperor Guangwu (the restoration founder).",
+            "Oversees the physical inspection, sweeping, and cleaning of the temple grounds."
+        ],
+        "historical_notes": "Operates under structural regulations identical to those of the Gaomiao Ling."
+    },
+    {
+        "id": "lingyuan_ling",
+        "parentId": "taichang",
+        "title_ch": "每陵園令",
+        "title_en": "Director of the Mausoleum Parks",
+        "title_py": "Měi Língyuán Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "One Director is appointed per individual deceased emperor's mausoleum"
+        },
+        "responsibilities": [
+            "Guards the sacred grounds of their designated imperial mausoleum park.",
+            "Conducts routine inspections, sweeping, and maintenance of the mausoleum complex."
+        ],
+        "historical_notes": "A critical node that replicates for each deceased sovereign to maintain continuous post-mortem filial veneration."
+    },
+    {
+        "id": "lingyuan_cheng",
+        "parentId": "lingyuan_ling",
+        "title_ch": "丞",
+        "title_en": "Assistant of the Mausoleum Park",
+        "title_py": "Chéng",
+        "rank": null,
+        "personnel_count": {
+            "base": null,
+            "notes": "One Assistant assigned under each individual Mausoleum Park Director"
+        },
+        "responsibilities": [
+            "Assists the Lingyuan Ling in organizing the structural maintenance and clerical tasks of the park."
+        ],
+        "historical_notes": "Standardized deputy unit deployed to every active imperial mausoleum site."
+    },
+    {
+        "id": "lingyuan_xiaozhang",
+        "parentId": "lingyuan_ling",
+        "title_ch": "校長",
+        "title_en": "Commandant of the Mausoleum Park Guard",
+        "title_py": "Xiàozhǎng",
+        "rank": null,
+        "personnel_count": {
+            "base": null,
+            "notes": "One Commandant assigned under each individual Mausoleum Park Director"
+        },
+        "responsibilities": [
+            "In charge of tactical security, military defenses, and defense against bandits and tomb thieves within the mausoleum precinct."
+        ],
+        "historical_notes": "Provides militarized perimeter control over imperial burial grounds."
+    },
+    {
+        "id": "shiguan_ling",
+        "parentId": "taichang",
+        "title_ch": "每陵食官令",
+        "title_en": "Director of the Mausoleum Food Service",
+        "title_py": "Měi Líng Shíguān Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "One Director is appointed per individual deceased emperor's mausoleum"
+        },
+        "responsibilities": [
+            "In charge of managing and offering sacrificial food provisions.",
+            "Oversees ritual sacrifices scheduled during the first and last days of the month (wang/hui) as well as the seasonal festivals."
+        ],
+        "historical_notes": "Independent from the structural security elements of the mausoleum, focusing purely on sacrificial sustenance."
+    },
+    {
+        "id": "guangluxun",
+        "parentId": "emperor",
+        "title_ch": "光祿勳",
+        "title_en": "Superintendent of the Household",
+        "title_py": "Guānglùxún",
+        "rank": "Zhong 2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "In charge of guarding the gates and halls of the imperial palace complexes.",
+            "Oversees the registration and shift schedules of attendants on duty with halberds.",
+            "Evaluates the moral conduct and performance of palace attendants to determine their promotion or demotion.",
+            "Responsible for making the three offerings during sacrificial rituals conducted at the city suburbs."
+        ],
+        "historical_notes": "Originally possessed the Left and Right Cao (Bureaus) ranked at 2000 Shi to review memorials from the Masters of Writing (Shangshu), but Emperor Shizu (Guangwu) abolished them and transferred duties to the Little Yellow Gatekeepers. Shizu also abolished the Qingshi Ling (Director of the Request Chamber), replacing it with temporary assignments for Gentlemen (Lang). Furthermore, three military general positions (Generals of Chariots, Cavalry, and Barbarians) and the Yulin Ling were abolished post-Zhongxing."
+    },
+    {
+        "id": "guangluxun_cheng",
+        "parentId": "guangluxun",
+        "title_ch": "丞",
+        "title_en": "Assistant to the Superintendent of the Household",
+        "title_py": "Chéng",
+        "rank": "Bi 1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assists the Superintendent in managing palace security, administrative affairs, and the oversight of subordinate bureaus."
+        ],
+        "historical_notes": "Standard administrative deputy within the core ministerial office."
+    },
+    {
+        "id": "wuguan_zhonglang_jiang",
+        "parentId": "guangluxun",
+        "title_ch": "五官中郎將",
+        "title_en": "General of the Gentlemen-at-Large of the Five Bureaus",
+        "title_py": "Wǔguān Zhōnglángjiāng",
+        "rank": "Bi 2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Commands and supervises the Gentlemen (Lang) assigned to the Five Bureaus.",
+            "Manages palace guard rosters and night shifts."
+        ],
+        "historical_notes": "One of the key military commanders of the palace internal defense force (one of the seven military offices under Guangluxun)."
+    },
+    {
+        "id": "wuguan_zhonglang",
+        "parentId": "wuguan_zhonglang_jiang",
+        "title_ch": "五官中郎",
+        "title_en": "Gentleman-of-the-Household of the Five Bureaus",
+        "title_py": "Wǔguān Zhōngláng",
+        "rank": "Bi 600 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Responsible for standing guard on shifts, holding halberds, and protecting the various palace gates and halls.",
+            "Deploys as mounted escorts and guards for the imperial carriage when the emperor ventures outside."
+        ],
+        "historical_notes": "Core security cadre serving directly inside the imperial living spaces."
+    },
+    {
+        "id": "wuguan_shilang",
+        "parentId": "wuguan_zhonglang",
+        "title_ch": "五官侍郎",
+        "title_en": "Gentleman-Attendance of the Five Bureaus",
+        "title_py": "Wǔguān Shìláng",
+        "rank": "Bi 400 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Responsible for guard shifts, holding halberds at palace portals, and serving as imperial carriage attendants."
+        ],
+        "historical_notes": "Mid-tier cadet gentleman rank under the Five Bureaus command."
+    },
+    {
+        "id": "wuguan_langzhong",
+        "parentId": "wuguan_shilang",
+        "title_ch": "五官郎中",
+        "title_en": "Gentleman-of-the-Palace of the Five Bureaus",
+        "title_py": "Wǔguān Lángzhōng",
+        "rank": "Bi 300 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Performs routine structural guard duty, carries halberds at palace halls, and serves in the escort cavalcade."
+        ],
+        "historical_notes": "Junior tier of the operational palace guard system within the Five Bureaus."
+    },
+    {
+        "id": "zuo_zhonglang_jiang",
+        "parentId": "guangluxun",
+        "title_ch": "左中郎將",
+        "title_en": "General of the Left Bureau Gentlemen",
+        "title_py": "Zuǒ Zhōnglángjiāng",
+        "rank": "Bi 2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Commands and administers the security forces and Gentlemen stationed within the Left Bureau (Zuo Shu)."
+        ],
+        "historical_notes": "Leads the left wing of the regular interior household corps."
+    },
+    {
+        "id": "zuo_zhonglang",
+        "parentId": "zuo_zhonglang_jiang",
+        "title_ch": "中郎",
+        "title_en": "Gentleman-of-the-Household of the Left Bureau",
+        "title_py": "Zhōngláng",
+        "rank": "Bi 600 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Stands shift rotation with halberds, guards designated inner gates, and serves as an external cavalry escort."
+        ],
+        "historical_notes": "Senior guard officer tier of the Left Bureau."
+    },
+    {
+        "id": "zuo_shilang",
+        "parentId": "zuo_zhonglang",
+        "title_ch": "侍郎",
+        "title_en": "Gentleman-Attendant of the Left Bureau",
+        "title_py": "Shìláng",
+        "rank": "Bi 400 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Maintains halberd-bearing shifts at gates and accompanies the imperial entourage on horseback."
+        ],
+        "historical_notes": "Intermediate guard level within the Left Bureau framework."
+    },
+    {
+        "id": "zuo_langzhong",
+        "parentId": "zuo_shilang",
+        "title_ch": "郎中",
+        "title_en": "Gentleman-of-the-Palace of the Left Bureau",
+        "title_py": "Lángzhōng",
+        "rank": "Bi 300 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Executes baseline guard shift routines and serves as a vehicle and horse escort."
+        ],
+        "historical_notes": "Entry-level gentleman grade within the Left Bureau."
+    },
+    {
+        "id": "you_zhonglang_jiang",
+        "parentId": "guangluxun",
+        "title_ch": "右中郎將",
+        "title_en": "General of the Right Bureau Gentlemen",
+        "title_py": "Yòu Zhōnglángjiāng",
+        "rank": "Bi 2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Commands and administers the security forces and Gentlemen stationed within the Right Bureau (You Shu)."
+        ],
+        "historical_notes": "Leads the right wing of the regular interior household corps."
+    },
+    {
+        "id": "you_zhonglang",
+        "parentId": "you_zhonglang_jiang",
+        "title_ch": "中郎",
+        "title_en": "Gentleman-of-the-Household of the Right Bureau",
+        "title_py": "Zhōngláng",
+        "rank": "Bi 600 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Stands shift rotation with halberds, guards designated inner gates, and serves as an external cavalry escort."
+        ],
+        "historical_notes": "Senior guard officer tier of the Right Bureau."
+    },
+    {
+        "id": "you_shilang",
+        "parentId": "you_zhonglang",
+        "title_ch": "侍郎",
+        "title_en": "Gentleman-Attendant of the Right Bureau",
+        "title_py": "Shìláng",
+        "rank": "Bi 400 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Maintains halberd-bearing shifts at gates and accompanies the imperial entourage on horseback."
+        ],
+        "historical_notes": "Intermediate guard level within the Right Bureau framework."
+    },
+    {
+        "id": "you_langzhong",
+        "parentId": "you_shilang",
+        "title_ch": "郎中",
+        "title_en": "Gentleman-of-the-Palace of the Right Bureau",
+        "title_py": "Lángzhōng",
+        "rank": "Bi 300 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Executes baseline guard shift routines and serves as a vehicle and horse escort."
+        ],
+        "historical_notes": "Entry-level gentleman grade within the Right Bureau."
+    },
+    {
+        "id": "huben_zhonglang_jiang",
+        "parentId": "guangluxun",
+        "title_ch": "虎賁中郎將",
+        "title_en": "General of the Rapid as Tigers Elite Guard",
+        "title_py": "Hǔbēn Zhōnglángjiāng",
+        "rank": "Bi 2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Commands the specialized Huben (Rapid as Tigers) elite guards.",
+            "Oversees the physical defense and close personal escort of the emperor."
+        ],
+        "historical_notes": "An elite hereditary and highly vetted imperial guard force branch."
+    },
+    {
+        "id": "huben_zuoyou_puye",
+        "parentId": "huben_zhonglang_jiang",
+        "title_ch": "左右僕射",
+        "title_en": "Left and Right Supervisors of the Rapid as Tigers Elite Guard",
+        "title_py": "Zuǒyòu Púyè",
+        "rank": "Bi 600 Shi",
+        "personnel_count": {
+            "base": 2,
+            "notes": "One Left and one Right Supervisor"
+        },
+        "responsibilities": [
+            "In charge of training and drilling the Huben Gentlemen in archery, combat, and military tactical skills."
+        ],
+        "historical_notes": "Acts as the training officers for the elite guard."
+    },
+    {
+        "id": "huben_zuoyou_bichang",
+        "parentId": "huben_zhonglang_jiang",
+        "title_ch": "左右陛長",
+        "title_en": "Left and Right Leaders of the Palace Steps",
+        "title_py": "Zuǒyòu Bìzhǎng",
+        "rank": "Bi 600 Shi",
+        "personnel_count": {
+            "base": 2,
+            "notes": "One Left and one Right Leader"
+        },
+        "responsibilities": [
+            "In charge of the direct operational control of Huben guards stationed at the steps within the central court halls during major imperial assemblies."
+        ],
+        "historical_notes": "Ensures direct tactical command during formal audience events."
+    },
+    {
+        "id": "huben_zhonglang",
+        "parentId": "huben_zhonglang_jiang",
+        "title_ch": "虎賁中郎",
+        "title_en": "Gentleman-of-the-Household of the Rapid as Tigers Guard",
+        "title_py": "Hǔbēn Zhōngláng",
+        "rank": "Bi 600 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Serves as elite close-quarters security, guards imperial quarters, and acts as close attendants."
+        ],
+        "historical_notes": "The apex tactical echelon within the Huben corps."
+    },
+    {
+        "id": "huben_shilang",
+        "parentId": "huben_zhonglang",
+        "title_ch": "虎賁侍郎",
+        "title_en": "Gentleman-Attendant of the Rapid as Tigers Guard",
+        "title_py": "Hǔbēn Shìláng",
+        "rank": "Bi 400 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Maintains tactical security patrols and escorts within the inner halls."
+        ],
+        "historical_notes": "Mid-tier elite guard ranking."
+    },
+    {
+        "id": "huben_langzhong",
+        "parentId": "huben_shilang",
+        "title_ch": "虎賁郎中",
+        "title_en": "Gentleman-of-the-Palace of the Rapid as Tigers Guard",
+        "title_py": "Hǔbēn Lángzhōng",
+        "rank": "Bi 300 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Participates in close personal guard shifts and ritual processions."
+        ],
+        "historical_notes": "Standard elite guard entry position."
+    },
+    {
+        "id": "jiecong_huben",
+        "parentId": "huben_langzhong",
+        "title_ch": "節從虎賁",
+        "title_en": "Insignia-Following Rapid as Tigers Guard",
+        "title_py": "Jiécóng Hǔbēn",
+        "rank": "Bi 200 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Acts as basic guards and retinue carrying operational flags/insignia during imperial movements."
+        ],
+        "historical_notes": "Juniormost ranking in the Huben hierarchy. Long-serving, highly competent members can be promoted step-by-step up to Huben Zhonglang."
+    },
+    {
+        "id": "yulin_zhonglang_jiang",
+        "parentId": "guangluxun",
+        "title_ch": "羽林中郎將",
+        "title_en": "General of the Feathered Forest Guard",
+        "title_py": "Yǔlín Zhōnglángjiāng",
+        "rank": "Bi 2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Commands the elite, highly mobile Yulin (Feathered Forest) tactical guards.",
+            "Responsible for close personal security and combat response within the palace."
+        ],
+        "historical_notes": "Originally called Yanlang (Rock Gentlemen) under Emperor Wu because they stayed in the spaces beneath palace stair-cliffs after returning from hunts."
+    },
+    {
+        "id": "yulin_lang",
+        "parentId": "yulin_zhonglang_jiang",
+        "title_ch": "羽林郎",
+        "title_en": "Gentleman of the Feathered Forest",
+        "title_py": "Yǔlínláng",
+        "rank": "300 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Responsible for tactical combat shifts and guarding the immediate person of the sovereign."
+        ],
+        "historical_notes": "Recruited exclusively from reputable families across six specific northwestern border commanderies (Hanyang, Longxi, Anding, Beidi, Shangjun, Xihe) to ensure exceptional horsemanship and martial loyalty."
+    },
+    {
+        "id": "yulin_zuojian",
+        "parentId": "guangluxun",
+        "title_ch": "羽林左監",
+        "title_en": "Director of the Left Wing Feathered Forest Cavalry",
+        "title_py": "Yǔlín Zuǒjiān",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Directly commands and drills the Left Wing cavalry detachment of the Yulin corps."
+        ],
+        "historical_notes": "Represents the specialized cavalry wing of the interior guard."
+    },
+    {
+        "id": "yulin_zuojian_cheng",
+        "parentId": "yulin_zuojian",
+        "title_ch": "丞",
+        "title_en": "Assistant to the Director of the Left Wing Cavalry",
+        "title_py": "Chéng",
+        "rank": null,
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assists the Left Wing Director in cavalry administration and tactical drills."
+        ],
+        "historical_notes": "Deputy of the Left Wing Yulin Cavalry command."
+    },
+    {
+        "id": "yulin_youjian",
+        "parentId": "guangluxun",
+        "title_ch": "羽林右監",
+        "title_en": "Director of the Right Wing Feathered Forest Cavalry",
+        "title_py": "Yǔlín Yòujiān",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Directly commands and drills the Right Wing cavalry detachment of the Yulin corps."
+        ],
+        "historical_notes": "Represents the complementary right cavalry wing of the interior guard."
+    },
+    {
+        "id": "yulin_youjian_cheng",
+        "parentId": "yulin_youjian",
+        "title_ch": "丞",
+        "title_en": "Assistant to the Director of the Right Wing Cavalry",
+        "title_py": "Chéng",
+        "rank": null,
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assists the Right Wing Director in cavalry administration and tactical drills."
+        ],
+        "historical_notes": "Deputy of the Right Wing Yulin Cavalry command."
+    },
+    {
+        "id": "fengche_duyi",
+        "parentId": "guangluxun",
+        "title_ch": "奉車都尉",
+        "title_en": "Commandant of Imperial Carriages",
+        "title_py": "Fèngchē Dūwèi",
+        "rank": "Bi 2000 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "In charge of piloting and managing the emperor's formal ceremonial carriages and processions."
+        ],
+        "historical_notes": "Part of the prestigious civil/literary administrative branch attached to the Superintendent."
+    },
+    {
+        "id": "huma_duyi",
+        "parentId": "guangluxun",
+        "title_ch": "駙馬都尉",
+        "title_en": "Commandant of Attaching Horses",
+        "title_py": "Fùmǎ Dūwèi",
+        "rank": "Bi 2000 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "In charge of the auxiliary imperial horses and reserve chariot teams."
+        ],
+        "historical_notes": "Historically and socio-politically reserved as an honorary title assigned to imperial in-laws (husbands of imperial princesses)."
+    },
+    {
+        "id": "qi_duyi",
+        "parentId": "guangluxun",
+        "title_ch": "騎都尉",
+        "title_en": "Commandant of Cavalry",
+        "title_py": "Qí Dūwèi",
+        "rank": "Bi 2000 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Maintains administrative oversight over high-status mobile tactical elements."
+        ],
+        "historical_notes": "Originally designed to directly manage the operational deployment of the Yulin Cavalry units."
+    },
+    {
+        "id": "guanglu_dafu",
+        "parentId": "guangluxun",
+        "title_ch": "光祿大夫",
+        "title_en": "Imperial Grandee of the Household",
+        "title_py": "Guānglù Dàfū",
+        "rank": "Bi 2000 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Serves as a high-level counselor, providing policy advice, answering technical inquiries, and offering wisdom to the sovereign.",
+            "Dispatched as the official imperial envoy to deliver formal condolences upon the demise of the heir of any vassal kingdom."
+        ],
+        "historical_notes": "Holds no fixed daily administrative routine, responding purely to targeted imperial edicts."
+    },
+    {
+        "id": "taizhong_dafu",
+        "parentId": "guangluxun",
+        "title_ch": "太中大夫",
+        "title_en": "Palace Grandee",
+        "title_py": "Tàizhōng Dàfū",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Acts as a senior political advisor and consultant, providing counsel upon imperial command."
+        ],
+        "historical_notes": "Core consultative rank within the civil advisory pool."
+    },
+    {
+        "id": "zhongsan_dafu",
+        "parentId": "guangluxun",
+        "title_ch": "中散大夫",
+        "title_en": "Grandee of Palace Leisure",
+        "title_py": "Zhōngsǎn Dàfū",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Provides consultative services and advisory responses when petitioned by the throne."
+        ],
+        "historical_notes": "Mid-tier advisory node lacking fixed bureau duties."
+    },
+    {
+        "id": "jianyi_dafu",
+        "parentId": "guangluxun",
+        "title_ch": "諫議大夫",
+        "title_en": "Grandee of Remonstrance and Consultation",
+        "title_py": "Jiànyì Dàfū",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Tasked with presenting political criticism, offering policy corrections, and engaging in official remonstrance."
+        ],
+        "historical_notes": "Specialized consultative office designed to explicitly challenge or critique policy errors."
+    },
+    {
+        "id": "yilang",
+        "parentId": "guangluxun",
+        "title_ch": "議郎",
+        "title_en": "Gentleman-Consultant",
+        "title_py": "Yìláng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota"
+        },
+        "responsibilities": [
+            "Engages in formal debates, policy consultation, and drafting advice for the sovereign."
+        ],
+        "historical_notes": "Distinct from all other Gentlemen (Lang) as they are completely exempt from standing guard shifts and carrying physical halberds."
+    },
+    {
+        "id": "yezhe_puye",
+        "parentId": "guangluxun",
+        "title_ch": "謁者僕射",
+        "title_en": "Supervisor of the Receptionists",
+        "title_py": "Yèzhě Púyè",
+        "rank": "Bi 1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Serves as the administrative head of the Bureau of Receptionists (Yezhe Tai).",
+            "Leads and directs the ceremonial vanguard to guide the way whenever the emperor travels outside the palace."
+        ],
+        "historical_notes": "The title Puye (Supervisor of Archery) stems from the ancient martial value placed on shooting, where an archery master was appointed to record and oversee subordinates."
+    },
+    {
+        "id": "changshi_yezhe",
+        "parentId": "yezhe_puye",
+        "title_ch": "常侍謁者",
+        "title_en": "Regular Attendant Receptionist",
+        "title_py": "Chángshì Yèzhě",
+        "rank": "Bi 600 Shi",
+        "personnel_count": {
+            "base": 5,
+            "notes": null
+        },
+        "responsibilities": [
+            "In charge of managing and maintaining stately dignity, visual decorum, and ritual rules directly inside the court hall."
+        ],
+        "historical_notes": "Senior masters of ceremonies inside the imperial presence."
+    },
+    {
+        "id": "jishi_yezhe",
+        "parentId": "yezhe_puye",
+        "title_ch": "給事謁者",
+        "title_en": "Receptionist-in-Attendance",
+        "title_py": "Jǐshì Yèhe",
+        "rank": "400 Shi",
+        "personnel_count": {
+            "base": 30,
+            "notes": "Total cap for the general Yezhe pool under Eastern Han"
+        },
+        "responsibilities": [
+            "Manages foreign and internal guests, introduces callers, receives administrative matters, and presents formal memorials to the throne.",
+            "Handles the processing of inquiries and delivers official responses.",
+            "Dispatched to carry out official condolences for the funerals of high generals, Grandees (Dafu), and officials below them."
+        ],
+        "historical_notes": "The total pool of Receptionists was originally 70 under the Western Han, but was permanently downsized to 30 following the Eastern Han restoration (Zhongxing)."
+    },
+    {
+        "id": "guanyezhe_langzhong",
+        "parentId": "jishi_yezhe",
+        "title_ch": "灌謁者郎中",
+        "title_en": "Probationary Novice Receptionist",
+        "title_py": "Guànyèzhě Lángzhōng",
+        "rank": "Bi 300 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "Drawn from the 30 active receptionists during initial year"
+        },
+        "responsibilities": [
+            "Assists in managing guests, greeting visitors, and studying court protocols during a probationary period."
+        ],
+        "historical_notes": "This represents the entry phase; individuals serve as Guanyezhe first, and upon completing a full year of satisfactory service, they graduate to become full Receptionists-in-Attendance (Jishi Yezhe)."
+    },
+    {
+    "id": "weiyi",
+    "parentId": "emperor",
+    "title_ch": "衛尉",
+    "title_en": "Minister of the Guards",
+    "title_py": "Wèiwèi",
+    "rank": "Zhong 2000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "In charge of the palace gate guards.",
+      "Oversees patrol and security duties within the imperial palace complexes."
+    ],
+    "historical_notes": "Following the Eastern Han restoration (Zhongxing), the office of the Lüben Ling (Director of the Fleet-as-Arrows Guards) was abolished, and its structure was consolidated under a single Weishi Cheng (Assistant of the Guards)."
+  },
+  {
+    "id": "weiyi_cheng",
+    "parentId": "weiyi",
+    "title_ch": "丞",
+    "title_en": "Assistant to the Minister of the Guards",
+    "title_py": "Chéng",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Assists the Minister of the Guards in supervising palace security, administrative affairs, and gate defense coordination."
+    ],
+    "historical_notes": "Standard ministerial deputy office managing daily operations."
+  },
+  {
+    "id": "gongche_sima_ling",
+    "parentId": "weiyi",
+    "title_ch": "公車司馬令",
+    "title_en": "Director of the Sima of the Official Carriages",
+    "title_py": "Gōngchē Sīmǎ Lìng",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "In charge of the southern gatehouse (Gongche Gate) of the palace complex.",
+      "Receives and processes memorials, petitions, and reports submitted by officials and commoners.",
+      "Manages tributes sent from all directions of the empire.",
+      "Oversees and receives individuals who have been formally summoned to court via the official carriage service."
+    ],
+    "historical_notes": "Serves as the critical administrative and physical portal between the outer empire and the inner court."
+  },
+  {
+    "id": "gongche_sima_cheng",
+    "parentId": "gongche_sima_ling",
+    "title_ch": "丞",
+    "title_en": "Assistant to the Director of the Sima of the Official Carriages",
+    "title_py": "Chéng",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Selected specifically for expertise in legal and imperial taboos.",
+      "In charge of inspecting incoming submissions and identifying illegal or non-compliant acts."
+    ],
+    "historical_notes": "Acts as a specialized administrative and regulatory deputy to the Director."
+  },
+  {
+    "id": "gongche_sima_wei",
+    "parentId": "gongche_sima_ling",
+    "title_ch": "尉",
+    "title_en": "Commandant of the Sima of the Official Carriages",
+    "title_py": "Wèi",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "In charge of the gate guard soldiers and enforcing military prohibitions at the palace gatehouse.",
+      "Maintains standard defensive vigilance to warn against and suppress unusual or emergency occurrences."
+    ],
+    "historical_notes": "Represents the direct tactical military commander under the Gongche Sima bureau."
+  },
+  {
+    "id": "nangong_weishi_ling",
+    "parentId": "weiyi",
+    "title_ch": "南宮衛士令",
+    "title_en": "Director of the Guards of the Southern Palace",
+    "title_py": "Nángōng Wèishì Lìng",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Commands, drills, and manages the garrison troops and guards assigned to defend the Southern Palace complex."
+    ],
+    "historical_notes": "Responsible for one of the two core residential/administrative palace sectors of Luoyang."
+  },
+  {
+    "id": "nangong_weishi_cheng",
+    "parentId": "nangong_weishi_ling",
+    "title_ch": "丞",
+    "title_en": "Assistant to the Director of the Guards of the Southern Palace",
+    "title_py": "Chéng",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Assists the Southern Palace Guard Director in administrative management and duty roster execution."
+    ],
+    "historical_notes": "Deputy officer for the Southern Palace guard garrison."
+  },
+  {
+    "id": "beigong_weishi_ling",
+    "parentId": "weiyi",
+    "title_ch": "北宮衛士令",
+    "title_en": "Director of the Guards of the Northern Palace",
+    "title_py": "Běigōng Wèishì Lìng",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Commands, drills, and manages the garrison troops and guards assigned to defend the Northern Palace complex."
+    ],
+    "historical_notes": "Responsible for the complementary palace sector housing the core imperial residence."
+  },
+  {
+    "id": "beigong_weishi_cheng",
+    "parentId": "beigong_weishi_ling",
+    "title_ch": "丞",
+    "title_en": "Assistant to the Director of the Guards of the Northern Palace",
+    "title_py": "Chéng",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Assists the Northern Palace Guard Director in administrative management and duty roster execution."
+    ],
+    "historical_notes": "Deputy officer for the Northern Palace guard garrison."
+  },
+  {
+    "id": "zuo_duhou",
+    "parentId": "weiyi",
+    "title_ch": "左都候",
+    "title_en": "Left Chief Commandant of Patrols",
+    "title_py": "Zuǒ Dūhòu",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Commands and directs the specialized sword and halberd-bearing soldiers (Jianji Shi).",
+      "Conducts active patrols and surveillance loops within the palace compounds.",
+      "Executes imperial orders for investigations, dynamic arrests, and judicial examinations inside the palace."
+    ],
+    "historical_notes": "Operates as an internal security and counter-espionage asset within the palace walls."
+  },
+  {
+    "id": "zuo_duhou_cheng",
+    "parentId": "zuo_duhou",
+    "title_ch": "丞",
+    "title_en": "Assistant to the Left Chief Commandant of Patrols",
+    "title_py": "Chéng",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Assists the Left Chief Commandant in organizing internal security sweeps, patrol routes, and processing detainees."
+    ],
+    "historical_notes": "Administrative and tactical deputy within the Left Patrol bureau."
+  },
+  {
+    "id": "you_duhou",
+    "parentId": "weiyi",
+    "title_ch": "右都候",
+    "title_en": "Right Chief Commandant of Patrols",
+    "title_py": "Yòu Dūhòu",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Commands and directs the specialized sword and halberd-bearing soldiers (Jianji Shi).",
+      "Conducts active patrols and surveillance loops within the palace compounds.",
+      "Executes imperial orders for investigations, dynamic arrests, and judicial examinations inside the palace."
+    ],
+    "historical_notes": "Operates alongside the Left Commandant to provide comprehensive internal counter-threat security."
+  },
+  {
+    "id": "you_duhou_cheng",
+    "parentId": "you_duhou",
+    "title_ch": "丞",
+    "title_en": "Assistant to the Right Chief Commandant of Patrols",
+    "title_py": "Chéng",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Assists the Right Chief Commandant in organizing internal security sweeps, patrol routes, and processing detainees."
+    ],
+    "historical_notes": "Administrative and tactical deputy within the Right Patrol bureau."
+  },
+  {
+    "id": "pingcheng_gate_sima",
+    "parentId": "weiyi",
+    "title_ch": "南宮南屯司馬",
+    "title_en": "Sima of the Southern Garrison (Pingcheng Gate)",
+    "title_py": "Nángōng Nántún Sīmǎ",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Commands the garrison at Pingcheng Gate (the principal southern entrance of the Southern Palace).",
+      "Maintains the identity registry (Kouji) of all residents authorized to pass through this gate.",
+      "Verifies iron seals and written tokens (Fu) before granting entry.",
+      "Enforces transit clearance for outsiders via official passports (Chuan) and announcements of official rank."
+    ],
+    "historical_notes": "One of the seven critical Palace Gate Sima commands responsible for structural perimeter security."
+  },
+  {
+    "id": "canglong_gate_sima",
+    "parentId": "weiyi",
+    "title_ch": "北宮門蒼龍司馬",
+    "title_en": "Sima of the Blue Dragon Gate",
+    "title_py": "Běigōngmén Cānglóng Sīmǎ",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Commands the garrison at the Blue Dragon Gate (the eastern gate of the Northern Palace).",
+      "Maintains the resident registry, checks tokens, and monitors access to the eastern perimeter."
+    ],
+    "historical_notes": "One of the seven palace gate security commands under the Minister of the Guards."
+  },
+  {
+    "id": "xuanwu_gate_sima",
+    "parentId": "weiyi",
+    "title_ch": "玄武司馬",
+    "title_en": "Sima of the Xuanwu Gate",
+    "title_py": "Xuánwǔ Sīmǎ",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Commands the garrison at the Xuanwu Gate (the northern gate of the palace complex).",
+      "Maintains the gate resident registry, audits access credentials, and protects the northern approach."
+    ],
+    "historical_notes": "One of the seven palace gate security commands under the Minister of the Guards."
+  },
+  {
+    "id": "beitun_gate_sima",
+    "parentId": "weiyi",
+    "title_ch": "北屯司馬",
+    "title_en": "Sima of the Northern Garrison Gate",
+    "title_py": "Běitún Sīmǎ",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Commands the tactical garrison stationed at the designated Northern Garrison gate.",
+      "Manages entry registers, examines clearance tokens, and supervises guard forces."
+    ],
+    "historical_notes": "One of the seven palace gate security commands under the Minister of the Guards."
+  },
+  {
+    "id": "zhujue_gate_sima",
+    "parentId": "weiyi",
+    "title_ch": "北宮朱爵司馬",
+    "title_en": "Sima of the Vermilion Bird Gate",
+    "title_py": "Běigōng Zhūjué Sīmǎ",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Commands the security detachment at the Southern Side Gate (Zhujue Gate) of the Northern Palace.",
+      "Maintains administrative logs of personnel, audits entry seals, and commands local gate sentries."
+    ],
+    "historical_notes": "One of the seven palace gate security commands under the Minister of the Guards."
+  },
+  {
+    "id": "dongming_gate_sima",
+    "parentId": "weiyi",
+    "title_ch": "東明司馬",
+    "title_en": "Sima of the Dongming Gate",
+    "title_py": "Dōngmíng Sīmǎ",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Commands the garrison at the Dongming (Eastern Light) Gate.",
+      "Secures entry registers, checks credentials, and guards the designated portal."
+    ],
+    "historical_notes": "One of the seven palace gate security commands under the Minister of the Guards."
+  },
+  {
+    "id": "shuoping_gate_sima",
+    "parentId": "weiyi",
+    "title_ch": "朔平司馬",
+    "title_en": "Sima of the Shuoping Gate",
+    "title_py": "Shuòpíng Sīmǎ",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Commands the defensive garrison at the Shuoping (Northern Peace) Gate.",
+      "Regulates access via official seals, audits resident registries, and commands sentry squads."
+    ],
+    "historical_notes": "Completes the network of the seven designated palace perimeter gatehouse commands under the Weiyi agency."
+  },
+  {
+    "id": "taipu",
+    "parentId": "emperor",
+    "title_ch": "太僕",
+    "title_en": "Minister Coachman",
+    "title_py": "Tàipú",
+    "rank": "Zhong 2000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "In charge of imperial carriages, ceremonial horses, and insignias.",
+      "Whenever the Son of Heaven travels, he presents a formal report and manages the deployment and ceremonial layout of the imperial procession (lubu).",
+      "Personally acts as the driver for the imperial carriage during grand royal processions (dajia)."
+    ],
+    "historical_notes": "Extensively streamlined since the Eastern Han restoration (Zhongxing). Originally, there were six separate imperial stables, each headed by a Director ranked at 600 Shi, but they were reduced and consolidated into a single stable. Later, a Zujuan Ling (Director of Imperial Steeds) and its stable were temporarily established to manage the emperor's personal riding horses, but they were subsequently merged and abolished. Additionally, the Mushi Yuan (Pasturage Directorates) responsible for breeding horses across the six commanderies of Hexi were completely abolished post-restoration, with only the Liuma Yuan in Hanyang remaining, under the concurrent supervision of a Gentleman of the Feathered Forest (Yulin Lang)."
+  },
+  {
+    "id": "taifu_cheng",
+    "parentId": "taipu",
+    "title_ch": "丞",
+    "title_en": "Assistant to the Grand Servant",
+    "title_py": "Chéng",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Assists the Grand Servant in administering daily operations, managing transport logistics, and overseeing subordinate bureaus and stables."
+    ],
+    "historical_notes": "The primary administrative deputy within the core ministerial office."
+  },
+  {
+    "id": "kaogong_ling",
+    "parentId": "taipu",
+    "title_ch": "考工令",
+    "title_en": "Director of Imperial Manufactories",
+    "title_py": "Kǎogōng Lìng",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Supervises the production and manufacturing of military weapons, bows, crossbows, swords, and armor.",
+      "Transfers completed weaponry and military equipment to the Commandant of Justice (Zhi Jinyu) for secure storage in the Imperial Arsenal (Wu Ku).",
+      "Oversees the weaving of ceremonial sashes and coordinates various types of miscellaneous artisan crafts and workshops."
+    ],
+    "historical_notes": "Acts as the chief of the central manufacturing bureau responsible for core military engineering and imperial ritual items."
+  },
+  {
+    "id": "kaogong_zuocheng",
+    "parentId": "kaogong_ling",
+    "title_ch": "左丞",
+    "title_en": "Left Assistant to the Director of Imperial Manufactories",
+    "title_py": "Zuǒchéng",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Shares responsibility with the Right Assistant to supervise workshop production schedules, distribute raw materials, and manage artisan compliance."
+    ],
+    "historical_notes": "Due to the heavy and complex manufacturing demands of the imperial workshops, this office uniquely utilizes dual Left and Right Assistants to divide administrative duties."
+  },
+  {
+    "id": "kaogong_youcheng",
+    "parentId": "kaogong_ling",
+    "title_ch": "右丞",
+    "title_en": "Right Assistant to the Director of Imperial Manufactories",
+    "title_py": "Yòuchéng",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Shares responsibility with the Left Assistant to supervise workshop production schedules, distribute raw materials, and manage artisan compliance."
+    ],
+    "historical_notes": "Works in tandem with the Left Assistant to maintain operational efficiency within the diverse artisan workshops."
+  },
+  {
+    "id": "chefu_ling",
+    "parentId": "taipu",
+    "title_ch": "車府令",
+    "title_en": "Director of the Imperial Coachhouses",
+    "title_py": "Chēfǔ Lìng",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "In charge of all types of formal ceremonial carriages and transport vehicles reserved for the use of the Son of Heaven, ensuring their upkeep and deployment."
+    ],
+    "historical_notes": "A specialized office directly tasked with securing and maintaining the sovereign's personal overland transport fleet."
+  },
+  {
+    "id": "chefu_cheng",
+    "parentId": "chefu_ling",
+    "title_ch": "丞",
+    "title_en": "Assistant to the Director of the Imperial Coachhouses",
+    "title_py": "Chéng",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Assists the Director in logging carriage inventories, conducting routine vehicle maintenance audits, and scheduling transport teams."
+    ],
+    "historical_notes": "The standard administrative deputy within the Coachhouses bureau."
+  },
+  {
+    "id": "weiyang_jiu_ling",
+    "parentId": "taipu",
+    "title_ch": "未央廄令",
+    "title_en": "Director of the Weiyang Stables",
+    "title_py": "Wèiyāngjiù Lìng",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "In charge of the sovereign's personal riding horses as well as managing all official horses housed within the imperial stables."
+    ],
+    "historical_notes": "The Western Han institutional setup originally featured six separate stables, but these were drastically downsized and consolidated into this single surviving stable entity following the Eastern Han restoration."
+  },
+  {
+    "id": "changle_jiu_cheng",
+    "parentId": "weiyang_jiu_ling",
+    "title_ch": "長樂廄丞",
+    "title_en": "Assistant of the Changle Stables",
+    "title_py": "Chánglèjiù Chéng",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Assists the Director of the Weiyang Stables in animal husbandry, horse training, feed distribution ratios, and general daily stable management."
+    ],
+    "historical_notes": "Although retaining the name 'Changle', this position serves as the subordinate administrative deputy under the unified authority of the Weiyang Stables Director due to post-Zhongxing fiscal downsizing."
+  },
+  {
+    "id": "tingwei",
+    "parentId": "emperor",
+    "title_ch": "廷尉",
+    "title_en": "Commandant of Justice",
+    "title_py": "Tíngwèi",
+    "rank": "Zhong 2000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "In charge of adjudicating judicial cases and submitting final sentencing recommendations to the emperor.",
+      "Reviews, decides upon, and reports back on all doubtful or questionable criminal cases referred from the commanderies and kingdoms (vassal states)."
+    ],
+    "historical_notes": "Since the reign of Emperor Xiaowu (Wu of Western Han), twenty-six central government prisons had been established, each managed by its own Director (Ling) or Chief (Chang). However, during the restoration under Emperor Shizu (Guangwu of Eastern Han), all twenty-six prisons and their management positions were completely abolished, leaving only the Tingwei and Luoyang with active imperial prisons."
+  },
+  {
+    "id": "tingwei_cheng",
+    "parentId": "tingwei",
+    "title_ch": "丞",
+    "title_en": "Assistant to the Commandant of Justice",
+    "title_py": "Chéng",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Assists the Commandant of Justice in general bureau administration and judicial management."
+    ],
+    "historical_notes": "Standard core ministerial administrative deputy."
+  },
+  {
+    "id": "tingwei_zheng",
+    "parentId": "tingwei",
+    "title_ch": "正",
+    "title_en": "Director of Justice",
+    "title_py": "Zhèng",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Directly handles court cases and coordinates legal interpretations within the core office of the Tingwei."
+    ],
+    "historical_notes": "A senior legal officer directly supporting the Commandant of Justice."
+  },
+  {
+    "id": "tingwei_zuojian",
+    "parentId": "tingwei",
+    "title_ch": "左監",
+    "title_en": "Left Supervisor of Justice",
+    "title_py": "Zuǒjiān",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Supervises the detention of prisoners, prison facilities, and legal compliance during judicial processing."
+    ],
+    "historical_notes": "Maintains oversight over the central prison apparatus under the Tingwei."
+  },
+  {
+    "id": "tingwei_zuoping",
+    "parentId": "tingwei",
+    "title_ch": "左平",
+    "title_en": "Left Arbiter of Justice",
+    "title_py": "Zuǒpíng",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "In charge of reviewing, adjudicating, and deciding upon imperial cases (Zhaoyu) initiated directly by edict."
+    ],
+    "historical_notes": "Specialized legal authority tasked with managing high-stakes cases derived from royal decrees."
+  },
+  {
+    "id": "dahunlu",
+    "parentId": "emperor",
+    "title_ch": "大鴻臚",
+    "title_en": "Grand Herald",
+    "title_py": "Dàhónglú",
+    "rank": "Zhong 2000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "In charge of feudal lords, vassal kings, and the various barbarian tribes from all directions who have submitted to Han rule.",
+      "During sacrifices at the altars in the suburbs and temples, he offers ritual guidance and requests permission for procedures; once approved by the emperor, he issues instructions to all relevant departments.",
+      "Meets feudal kings at the suburbs when they come to court and manages their ceremonial protocols.",
+      "Responsible for receiving annual statistics/reports submitted by commanderies and kingdoms, and managing envoys arriving from all directions.",
+      "Assists in bestowing seals and sashes when the emperor's sons are formally invested as kings.",
+      "Summons and confers titles upon feudal lords, heirs of feudal lords, and barbarian chieftains from all directions at the bureau office (Taixia).",
+      "Dispatched to offer imperial condolences when a vassal king dies, and formally confers the title onto the king's heir."
+    ],
+    "historical_notes": "Inheriting from the Qin dynasty system, there was originally an independent office called the Dianshu Guo (Director of Nationalities) separately in charge of foreign tribes who came to pay tribute or serve as hostages; during the reign of Emperor Chengdi in the Western Han, it was abolished and merged into the Dahanlu. Following the Eastern Han restoration (Zhongxing), the office further streamlined by abolishing positions such as the Yiguan Ling/Cheng (Director/Assistant of Post Stations), Biehuo Ling/Cheng (Director/Assistant of Fire Separators), and the various Jun Di Zhang/Cheng (Commandant/Assistant of Commandery Mansions); regular Gentlemen (Lang) were instead assigned concurrently to manage these commandery mansions in Luoyang."
+  },
+  {
+    "id": "dahunlu_cheng",
+    "parentId": "dahunlu",
+    "title_ch": "丞",
+    "title_en": "Assistant to the Grand Herald",
+    "title_py": "Chéng",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Assists the Grand Herald in supervising foreign diplomacy, vassal rituals, and the general administrative affairs of the office."
+    ],
+    "historical_notes": "The core administrative deputy within the ministerial office."
+  },
+  {
+    "id": "dahang_ling",
+    "parentId": "dahunlu",
+    "title_ch": "大行令",
+    "title_en": "Director of Visitors",
+    "title_py": "Dàháng Lìng",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Primarily in charge of managing the various Gentlemen (Lang) attached to the bureau and executing foreign reception logistics."
+    ],
+    "historical_notes": "Acts as the operational supervisor for foreign ceremonies and protocol management under the Grand Herald."
+  },
+  {
+    "id": "dahang_cheng",
+    "parentId": "dahang_ling",
+    "title_ch": "丞",
+    "title_en": "Assistant to the Director of Visitors",
+    "title_py": "Chéng",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": null
+    },
+    "responsibilities": [
+      "Assists the Director of Visitors in managing the Gentlemen and scheduling specific reception duties."
+    ],
+    "historical_notes": "The standard administrative deputy within the Visitors bureau."
+  },
+  {
+    "id": "zhili_lang",
+    "parentId": "dahang_ling",
+    "title_ch": "治禮郎",
+    "title_en": "Gentleman for Managing Rituals",
+    "title_py": "Zhìlǐláng",
+    "rank": null,
+    "personnel_count": {
+      "base": 47,
+      "notes": null
+    },
+    "responsibilities": [
+      "Responsible for practicing, guiding, and executing the granular details of state rituals, suburban sacrifices, vassal court audiences, and foreign tributes."
+    ],
+    "historical_notes": "Represents a large, highly specialized team of ritual practitioners and guides subordinated to the Visitors office."
+  }
+]
