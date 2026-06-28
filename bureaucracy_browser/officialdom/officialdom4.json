@@ -1,0 +1,835 @@
+[
+    {
+        "id": "zhijinwu",
+        "parentId": "emperor",
+        "title_ch": "執金吾",
+        "title_en": "Bearer of the Gilded Mace",
+        "title_py": "Zhíjīnwú",
+        "rank": "Zhong 2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Single agency head"
+        },
+        "responsibilities": [
+            "Guard against extraordinary incidents such as fire and flood outside the palace",
+            "Patrol the perimeter outside the palace three times a month",
+            "Manage weapons and armaments"
+        ],
+        "historical_notes": "The term 'Wu' (吾) is historically synonymous with 'Yu' (禦 - to ward off). Originally oversaw the Shidao Hou and Left/Right Zhonghou, who cleared the road for imperial processions; during the Eastern Han restoration (中興), these duties were made temporary assignments for Lang officers and detached from this office. Subordinate positions of Zhonglei, Sihu, Duchuan Ling, Cheng, Wei, and Left/Right Jingfu Duwei were abolished."
+    },
+    {
+        "id": "zhijinwu_cheng",
+        "parentId": "zhijinwu",
+        "title_ch": "執金吾丞",
+        "title_en": "Assistant to the Bearer of the Gilded Mace",
+        "title_py": "Zhíjīnwú Chéng",
+        "rank": "比千石",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assist the Bearer of the Gilded Mace in administrative and patrol duties"
+        ],
+        "historical_notes": "Standard administrative assistant per Han statutory salary scaling."
+    },
+    {
+        "id": "tiqi",
+        "parentId": "zhijinwu",
+        "title_ch": "緹騎",
+        "title_en": "Tiqi Cavalry",
+        "title_py": "Tíqí",
+        "rank": null,
+        "personnel_count": {
+            "base": 200,
+            "notes": "No official salary rank (無秩); compensation is scaled comparable to standard sub-official functionaries (比吏食奉)"
+        },
+        "responsibilities": [
+            "Provide armed escort and patrol support for the Bearer of the Gilded Mace"
+        ],
+        "historical_notes": "Retained as the primary physical force for capital policing outside the palace walls."
+    },
+    {
+        "id": "wuku_ling",
+        "parentId": "zhijinwu",
+        "title_ch": "武庫令",
+        "title_en": "Director of the Armory",
+        "title_py": "Wǔkù Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Subordinate Assistant (丞) established at 300 Shi per meta-rules"
+        },
+        "responsibilities": [
+            "Manage weapons and armaments"
+        ],
+        "historical_notes": "Transferred under the direct executive control of the Bearer of the Gilded Mace."
+    },
+    {
+        "id": "taizi_taifu",
+        "parentId": "emperor",
+        "title_ch": "太子太傅",
+        "title_en": "Grand Tutor to the Crown Prince",
+        "title_py": "Tàizǐ Tàifù",
+        "rank": "Zhong 2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Does not govern official subordinates (不領官屬)"
+        },
+        "responsibilities": [
+            "Provide moral guidance, instruction, and counsel to the Crown Prince",
+            "Maintain ceremonial standing equivalent to an imperial teacher"
+        ],
+        "historical_notes": "Operates purely as an academic and moral dignitary without an administrative bureau."
+    },
+    {
+        "id": "dachangqiu",
+        "parentId": "emperor",
+        "title_ch": "大長秋",
+        "title_en": "Grand Empress's Chamberlain",
+        "title_py": "Dàchángqiū",
+        "rank": "2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Post staffed exclusively by eunuchs during the Eastern Han"
+        },
+        "responsibilities": [
+            "Convey and promulgate edicts and orders from the Empress (中宮)",
+            "Manage communications and audience requests between the throne and imperial consort kin",
+            "Escort the Empress on all formal excursions outside her quarters"
+        ],
+        "historical_notes": "Origins in the Qin Dynasty post of Jiangxing (將行), staffed by eunuchs. Emperor Jing renamed it Dachangqiu and occasionally employed civilian scholars. Eastern Han restoration reverted exclusively to eunuchs. Absorbed the duties of the abolished Qin-era Zhanshi (詹事), who previously outranked the Changqiu."
+    },
+    {
+        "id": "dachangqiu_cheng",
+        "parentId": "dachangqiu",
+        "title_ch": "大長秋丞",
+        "title_en": "Assistant to the Grand Empress's Chamberlain",
+        "title_py": "Dàchángqiū Chéng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Staffed by a eunuch"
+        },
+        "responsibilities": [
+            "Assist the Grand Empress's Chamberlain in administrative management of the Empress's palace"
+        ],
+        "historical_notes": "Rank set at 600 Shi per statutory rules for assistants to actual 2000 Shi directors."
+    },
+    {
+        "id": "zhonggong_pu",
+        "parentId": "dachangqiu",
+        "title_ch": "中宮僕",
+        "title_en": "Coachman to the Empress",
+        "title_py": "Zhōnggōng Pú",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Staffed by a eunuch"
+        },
+        "responsibilities": [
+            "Manage the horses, carriages, and transport of the Empress"
+        ],
+        "historical_notes": "Originally titled Taipu (太僕) with a rank of 2000 Shi. During the Eastern Han restoration, the prefix 'Tai' was dropped and the rank demoted to 1000 Shi to subordinate it to the Dachangqiu."
+    },
+    {
+        "id": "zhonggong_yezhe_ling",
+        "parentId": "dachangqiu",
+        "title_ch": "中宮謁者令",
+        "title_en": "Prefect of the Empress's Receptionists",
+        "title_py": "Zhōnggōng Yèzhě Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Staffed by a eunuch; oversees 3 subordinate Receptionists (中宮謁者) ranked at 400 Shi"
+        },
+        "responsibilities": [
+            "Receive, process, and report formal documents and memorials submitted to the Empress's palace"
+        ],
+        "historical_notes": "Functions as the primary communications gatekeeper for the inner palace."
+    },
+    {
+        "id": "zhonggong_shangshu",
+        "parentId": "dachangqiu",
+        "title_ch": "中宮尚書",
+        "title_en": "Secretaries to the Empress",
+        "title_py": "Zhōnggōng Shàngshū",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 5,
+            "notes": "Staffed by eunuchs"
+        },
+        "responsibilities": [
+            "Manage internal palace documentation, correspondence, and secretarial records"
+        ],
+        "historical_notes": "Mirrors the executive function of the imperial Masters of Writing (尚書) within the inner apartments."
+    },
+    {
+        "id": "zhonggong_sifu_ling",
+        "parentId": "dachangqiu",
+        "title_ch": "中宮私府令",
+        "title_en": "Prefect of the Empress's Private Treasury",
+        "title_py": "Zhōnggōng Sīfǔ Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Staffed by a eunuch; assisted by 1 Cheng (300 Shi per meta-rules)"
+        },
+        "responsibilities": [
+            "Manage stored valuables, currency, and silk textiles of the inner palace",
+            "Supervise tailoring of garments, mending of bedding, and laundry operations"
+        ],
+        "historical_notes": "Serves as the fiscal and material quartermaster for the Empress's household."
+    },
+    {
+        "id": "zhonggong_yongxiang_ling",
+        "parentId": "dachangqiu",
+        "title_ch": "中宮永巷令",
+        "title_en": "Prefect of the Empress's Long Lane",
+        "title_py": "Zhōnggōng Yǒngxiàng Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Staffed by a eunuch; assisted by 1 Cheng"
+        },
+        "responsibilities": [
+            "Maintain order, discipline, and registry of female palace attendants and junior concubines"
+        ],
+        "historical_notes": "The 'Long Lane' (永巷) historically designated the residential quarters and detention areas for court women."
+    },
+    {
+        "id": "zhonggong_huangmen_rongcong_puye",
+        "parentId": "dachangqiu",
+        "title_ch": "中宮黃門冗從僕射",
+        "title_en": "Supervisor of the Empress's Yellow Gate Attendants-in-Waiting",
+        "title_py": "Zhōnggōng Huángmén Rǒngcóng Púyè",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Staffed by a eunuch"
+        },
+        "responsibilities": [
+            "Command and supervise the supernumerary eunuch attendants acting as guards and messengers in the inner palace"
+        ],
+        "historical_notes": "Puye (僕射) denotes a chief military or disciplinary overseer within Han domestic agencies."
+    },
+    {
+        "id": "zhonggong_shuling",
+        "parentId": "dachangqiu",
+        "title_ch": "中宮署令",
+        "title_en": "Prefect of the Empress's Palace Office",
+        "title_py": "Zhōnggōng Shǔlìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Staffed by a eunuch; oversees 6 Female Riders (女騎), 1 Assistant (丞), and 1 Passageway Assistant (復道丞)"
+        },
+        "responsibilities": [
+            "Maintain physical cleanliness and maintenance of the Empress's quarters",
+            "Keep precise logs of the Emperor's visits to the inner apartments",
+            "Supervise the covered elevated passageways (閣道) connecting palace complexes via the Fudao Cheng"
+        ],
+        "historical_notes": "Critical recording agency determining imperial lineage legitimacy through imperial visitation logs."
+    },
+    {
+        "id": "zhonggong_yaochang",
+        "parentId": "dachangqiu",
+        "title_ch": "中宮藥長",
+        "title_en": "Chief of the Empress's Dispensary",
+        "title_py": "Zhōnggōng Yàochǎng",
+        "rank": "400 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Staffed by a eunuch"
+        },
+        "responsibilities": [
+            "Manage pharmaceutical supplies, medical compounds, and health treatments for the Empress"
+        ],
+        "historical_notes": "Dedicated inner-palace medical officer distinct from the Grand Physician's public bureau."
+    },
+    {
+        "id": "taizi_shaofu",
+        "parentId": "emperor",
+        "title_ch": "太子少傅",
+        "title_en": "Junior Tutor to the Crown Prince",
+        "title_py": "Tàizǐ Shàofù",
+        "rank": "2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Executive head of the Crown Prince's household"
+        },
+        "responsibilities": [
+            "Assist and guide the Crown Prince",
+            "Exercise supreme administrative jurisdiction over all officials assigned to the Crown Prince's palace"
+        ],
+        "historical_notes": "When an Emperor ascends the throne prior to designating a new Crown Prince, all subordinate officials under this office are dismissed except the Sherin (舍人), who temporarily transfer to the Shaofu (Minister Steward)."
+    },
+    {
+        "id": "taizi_shugeng_ling",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子率更令",
+        "title_en": "Prefect of the Crown Prince's Timekeeping",
+        "title_py": "Tàizǐ Shuàigēng Lìng",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Manage the rotational night watch and guard duty schedules of the Shuzi and Sherin",
+            "Execute disciplinary and household management duties mirroring the Superintendent of the Imperial Household (光祿)"
+        ],
+        "historical_notes": "The title derives from sounding the night watches (更) for the princely guard units."
+    },
+    {
+        "id": "taizi_shuzi",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子庶子",
+        "title_en": "Cadets to the Crown Prince",
+        "title_py": "Tàizǐ Shùzǐ",
+        "rank": "400 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota (無員)"
+        },
+        "responsibilities": [
+            "Serve as attendants-in-waiting and ceremonial escorts to the Crown Prince"
+        ],
+        "historical_notes": "Structured functionally analogous to the Gentlemen-of-the-Household (中郎) of the Three Corps."
+    },
+    {
+        "id": "taizi_sherin",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子舍人",
+        "title_en": "Retainers to the Crown Prince",
+        "title_py": "Tàizǐ Shěrén",
+        "rank": "2000 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "No fixed quota (無員)"
+        },
+        "responsibilities": [
+            "Perform rotational overnight security and bodyguard duties (更直宿衛)"
+        ],
+        "historical_notes": "Structured functionally analogous to the Gentlemen (郎中) of the Three Corps. Only personnel retained when a Crown Prince ascends the throne."
+    },
+    {
+        "id": "taizi_jialing",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子家令",
+        "title_en": "Household Steward to the Crown Prince",
+        "title_py": "Tàizǐ Jiālìng",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Manage granary stores, cereal supplies, and dietary provisions for the princely household",
+            "Execute fiscal and domestic responsibilities mirroring the Minister of Finance (司農) and Minister Steward (少府)"
+        ],
+        "historical_notes": "Primary domestic quartermaster for the heir apparent."
+    },
+    {
+        "id": "taizi_cangling",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子倉令",
+        "title_en": "Prefect of the Crown Prince's Granaries",
+        "title_py": "Tàizǐ Cānglìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Supervise the storage and disbursement of grain and cereals"
+        ],
+        "historical_notes": "Subordinate specialist operating under the domestic purview of the Household Steward."
+    },
+    {
+        "id": "taizi_shiguan_ling",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子食官令",
+        "title_en": "Prefect of the Crown Prince's Kitchens",
+        "title_py": "Tàizǐ Shíguān Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Manage the preparation and service of food and beverages for the Crown Prince"
+        ],
+        "historical_notes": "Culinary directorate responsible for safeguarding the heir against dietary poisoning."
+    },
+    {
+        "id": "taizi_pu",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子僕",
+        "title_en": "Coachman to the Crown Prince",
+        "title_py": "Tàizǐ Pú",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Manage carriages, chariots, and horses for the heir apparent",
+            "Execute duties mirroring the Grand Coachman (太僕)"
+        ],
+        "historical_notes": "Maintains the transport infrastructure and stables of the Eastern Palace."
+    },
+    {
+        "id": "taizi_jiuchang",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子廄長",
+        "title_en": "Chief of the Crown Prince's Stables",
+        "title_py": "Tàizǐ Jiùchǎng",
+        "rank": "400 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Supervise daily husbandry, fodder, and maintenance of princely horses and vehicles"
+        ],
+        "historical_notes": "Subordinate stablemaster assisting the Crown Prince's Coachman."
+    },
+    {
+        "id": "taizi_mendaifu",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子門大夫",
+        "title_en": "Grand Master of the Crown Prince's Gate",
+        "title_py": "Tàizǐ Méndàifū",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": null,
+            "notes": "Unspecified quota"
+        },
+        "responsibilities": [
+            "Supervise security and access control at the gates of the Crown Prince's palace"
+        ],
+        "historical_notes": "Status equivalent to a Household General (郎將). Previously assisted by Left and Right Gate Commanders (左右戶將) overseeing duty guards; these subordinate posts were abolished after the Jianwu period."
+    },
+    {
+        "id": "taizi_zhongshuzi",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子中庶子",
+        "title_en": "Palace Cadets to the Crown Prince",
+        "title_py": "Tàizǐ Zhōngshùzǐ",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 5,
+            "notes": null
+        },
+        "responsibilities": [
+            "Serve as confidential inner attendants and advisors to the Crown Prince"
+        ],
+        "historical_notes": "Functional status and intimacy mirror the Palace Attendants (侍中) serving the Emperor."
+    },
+    {
+        "id": "taizi_xima",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子洗馬",
+        "title_en": "Forerunners to the Crown Prince",
+        "title_py": "Tàizǐ Xǐmǎ",
+        "rank": "比600 Shi",
+        "personnel_count": {
+            "base": 16,
+            "notes": "Old annotation specifies 16 personnel"
+        },
+        "responsibilities": [
+            "Lead the vanguard during royal excursions to clear the way and display ceremonial dignity",
+            "Perform reception and protocol duties mirroring imperial Receptionists (謁者)"
+        ],
+        "historical_notes": "The title literally means 'washing horses' but institutionally designates the equestrian vanguard."
+    },
+    {
+        "id": "taizi_zhongdun",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子中盾",
+        "title_en": "Palace Shield to the Crown Prince",
+        "title_py": "Tàizǐ Zhōngdùn",
+        "rank": "400 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Manage perimeter sentries and direct guard patrols around the princely residential complex"
+        ],
+        "historical_notes": "Security officer dedicated to the immediate physical circumference of the heir."
+    },
+    {
+        "id": "taizi_weilv",
+        "parentId": "taizi_shaofu",
+        "title_ch": "太子衛率",
+        "title_en": "Commander of the Crown Prince's Guards",
+        "title_py": "Tàizǐ Wèishuài",
+        "rank": "400 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Command the armed sentries stationed at the entry portals of the Crown Prince's palace"
+        ],
+        "historical_notes": "Direct tactical commander of the gate sentry detachments."
+    },
+    {
+        "id": "jiangzuo_dajiang",
+        "parentId": "emperor",
+        "title_ch": "將作大匠",
+        "title_en": "Grand Architect",
+        "title_py": "Jiàngzuò Dàjiàng",
+        "rank": "2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Assisted by 1 Cheng ranked at 600 Shi"
+        },
+        "responsibilities": [
+            "Construct and repair ancestral temples, state halls (路寢), palace buildings, and imperial mausoleums",
+            "Supervise civil engineering works in timber and earthwork",
+            "Cultivate and plant roadside arboriculture, specifically paulownia and catalpa trees"
+        ],
+        "historical_notes": "Inherited from the Qin Dynasty post of Jiangzuo Shaofu (將作少府). Renamed Jiangzuo Dajiang by Emperor Jing of the Western Han."
+    },
+    {
+        "id": "zuo_xiao_ling",
+        "parentId": "jiangzuo_dajiang",
+        "title_ch": "左校令",
+        "title_en": "Prefect of the Left Construction Yard",
+        "title_py": "Zuǒxiào Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Assisted by 1 Cheng (300 Shi per meta-rules)"
+        },
+        "responsibilities": [
+            "Manage and direct the left division of state construction laborers and artisans"
+        ],
+        "historical_notes": "One of two primary operational labor directorates under the Grand Architect."
+    },
+    {
+        "id": "you_xiao_ling",
+        "parentId": "jiangzuo_dajiang",
+        "title_ch": "右校令",
+        "title_en": "Prefect of the Right Construction Yard",
+        "title_py": "Yòuxiào Lìng",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Assisted by 1 Cheng (300 Shi per meta-rules)"
+        },
+        "responsibilities": [
+            "Manage and direct the right division of state construction laborers and artisans"
+        ],
+        "historical_notes": "Sister agency to the Left Yard, dividing metropolitan engineering workloads."
+    },
+    {
+        "id": "chengmen_xiaowei",
+        "parentId": "emperor",
+        "title_ch": "城門校尉",
+        "title_en": "Colonel of the City Gates",
+        "title_py": "Chéngmén Xiàowèi",
+        "rank": "比2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Assisted by a Cheng ranked at equivalent 600 Shi per meta-rules"
+        },
+        "responsibilities": [
+            "Maintain supreme military security and access control over the 12 metropolitan city gates of Luoyang"
+        ],
+        "historical_notes": "Centralized metropolitan defense command guarding the capital perimeter wall."
+    },
+    {
+        "id": "chengmen_sima",
+        "parentId": "chengmen_xiaowei",
+        "title_ch": "城門司馬",
+        "title_en": "Major of the City Gates",
+        "title_py": "Chéngmén Sīmǎ",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Exercise tactical command over military guard detachments stationed at the capital gates"
+        ],
+        "historical_notes": "Primary executive military officer under the Colonel of the City Gates."
+    },
+    {
+        "id": "chengmen_hou",
+        "parentId": "chengmen_xiaowei",
+        "title_ch": "城門候",
+        "title_en": "Captains of the City Gates",
+        "title_py": "Chéngmén Hòu",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 12,
+            "notes": "Exactly one Captain assigned to each of the 12 gates"
+        },
+        "responsibilities": [
+            "Direct daily guard operations, opening/closing protocols, and inspections at assigned city portals"
+        ],
+        "historical_notes": "Oversees the 12 gates of Luoyang: Pingcheng (Main South), Shangxi, Yong, Guangyang, Jin, Xiaoyuan, Kaiyang, Mao, Zhongdong, Shangdong, Gu, and Xia. The Northern Palace Gate (北宮門) was administratively detached under the Commandant of the Palace Guards (衛尉)."
+    },
+    {
+        "id": "beijun_zhonghou",
+        "parentId": "emperor",
+        "title_ch": "北軍中候",
+        "title_en": "Supervisor of the Northern Army",
+        "title_py": "Běijūn Zhōnghòu",
+        "rank": "600 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Monitor, audit, and supervise the military administration of the Five Regimental Camps of the Northern Army"
+        ],
+        "historical_notes": "Western Han originally established the Zhonglei Xiaowei (Colonel of the Central Rampart) to govern Northern Army fortifications, alongside specialized Huqi and Huben Colonels created by Emperor Wu. During the Eastern Han restoration, the Zhonglei office was abolished and replaced by this low-ranking Supervisor to prevent military consolidation. Huqi cavalry were merged into the Changshui regiment; Huben light chariots were absorbed by the Shesheng regiment."
+    },
+    {
+        "id": "tunqi_xiaowei",
+        "parentId": "beijun_zhonghou",
+        "title_ch": "屯騎校尉",
+        "title_en": "Colonel of Garrison Cavalry",
+        "title_py": "Túnqí Xiàowèi",
+        "rank": "比2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Command elite garrison cavalry units assigned to capital guard duties"
+        ],
+        "historical_notes": "First of the Five Regimental Colonels forming the standing metropolitan field army."
+    },
+    {
+        "id": "tunqi_sima",
+        "parentId": "tunqi_xiaowei",
+        "title_ch": "屯騎司馬",
+        "title_en": "Major of Garrison Cavalry",
+        "title_py": "Túnqí Sīmǎ",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assist the Colonel in tactical command and regimental administration"
+        ],
+        "historical_notes": "Standard regimental executive officer."
+    },
+    {
+        "id": "yueqi_xiaowei",
+        "parentId": "beijun_zhonghou",
+        "title_ch": "越騎校尉",
+        "title_en": "Colonel of Picked Cavalry",
+        "title_py": "Yuèqí Xiàowèi",
+        "rank": "比2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Command elite picked cavalry units safeguarding the royal capital"
+        ],
+        "historical_notes": "Second regimental command of the Northern Army."
+    },
+    {
+        "id": "yueqi_sima",
+        "parentId": "yueqi_xiaowei",
+        "title_ch": "越騎司馬",
+        "title_en": "Major of Picked Cavalry",
+        "title_py": "Yuèqí Sīmǎ",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assist the Colonel in tactical command and regimental administration"
+        ],
+        "historical_notes": "Standard regimental executive officer."
+    },
+    {
+        "id": "bubing_xiaowei",
+        "parentId": "beijun_zhonghou",
+        "title_ch": "步兵校尉",
+        "title_en": "Colonel of Infantry",
+        "title_py": "Bùbīng Xiàowèi",
+        "rank": "比2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Command standing metropolitan infantry regiments"
+        ],
+        "historical_notes": "Third regimental command of the Northern Army."
+    },
+    {
+        "id": "bubing_sima",
+        "parentId": "bubing_xiaowei",
+        "title_ch": "步兵司馬",
+        "title_en": "Major of Infantry",
+        "title_py": "Bùbīng Sīmǎ",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assist the Colonel in tactical command and regimental administration"
+        ],
+        "historical_notes": "Standard regimental executive officer."
+    },
+    {
+        "id": "changshui_xiaowei",
+        "parentId": "beijun_zhonghou",
+        "title_ch": "長水校尉",
+        "title_en": "Colonel of the Changshui Regiment",
+        "title_py": "Chángshuǐ Xiàowèi",
+        "rank": "比2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Command standing auxiliary cavalry regiments, specifically incorporating Wuhuan mounted archers"
+        ],
+        "historical_notes": "Fourth regimental command. Absorbed the Western Han Huqi (Barbarian Cavalry) regiment during Eastern Han reforms."
+    },
+    {
+        "id": "changshui_sima",
+        "parentId": "changshui_xiaowei",
+        "title_ch": "長水司馬",
+        "title_en": "Major of the Changshui Regiment",
+        "title_py": "Chángshuǐ Sīmǎ",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assist the Colonel in regular cavalry administration"
+        ],
+        "historical_notes": "Standard regimental executive officer."
+    },
+    {
+        "id": "huqi_sima",
+        "parentId": "changshui_xiaowei",
+        "title_ch": "胡騎司馬",
+        "title_en": "Major of Barbarian Cavalry",
+        "title_py": "Húqí Sīmǎ",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Command and administer incorporated Wuhuan auxiliary cavalry detachments"
+        ],
+        "historical_notes": "Specialized auxiliary officer attached to the Changshui regiment following the abolition of the independent Huqi Colonel."
+    },
+    {
+        "id": "shesheng_xiaowei",
+        "parentId": "beijun_zhonghou",
+        "title_ch": "射聲校尉",
+        "title_en": "Colonel of Archers who Fire at a Sound",
+        "title_py": "Shèshēng Xiàowèi",
+        "rank": "比2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Command elite metropolitan archer and crossbow regiments"
+        ],
+        "historical_notes": "Fifth regimental command. The title implies marksmen capable of shooting accurately by sound in darkness. Absorbed the Western Han Huben light chariot tactical units during restoration reforms."
+    },
+    {
+        "id": "shesheng_sima",
+        "parentId": "shesheng_xiaowei",
+        "title_ch": "射聲司馬",
+        "title_en": "Major of Archers who Fire at a Sound",
+        "title_py": "Shèshēng Sīmǎ",
+        "rank": "1000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": null
+        },
+        "responsibilities": [
+            "Assist the Colonel in tactical command and archery training"
+        ],
+        "historical_notes": "Standard regimental executive officer."
+    },
+    {
+        "id": "sili_xiaowei",
+        "parentId": "emperor",
+        "title_ch": "司隸校尉",
+        "title_en": "Director of the Capital Province",
+        "title_py": "Sīlì Xiàowèi",
+        "rank": "比2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Governs 7 central commanderies"
+        },
+        "responsibilities": [
+            "Hold supervisory and censoratorial jurisdiction over central officials and capital commanderies",
+            "Investigate, impeach, and prosecute illegal activities committed by high officials and royal kin"
+        ],
+        "historical_notes": "Originally established by Emperor Wu holding an imperial warrant (持節). Warrant stripped by Emperor Yuan; office abolished by Emperor Cheng. Restored during Jianwu period taking territorial jurisdiction over the central province (Sili)."
+    },
+    {
+        "id": "congshi_shi",
+        "parentId": "sili_xiaowei",
+        "title_ch": "從事史",
+        "title_en": "Attending Inspectors",
+        "title_py": "Cóngshì Shǐ",
+        "rank": "100 Shi",
+        "personnel_count": {
+            "base": 12,
+            "notes": "Appointed directly by provincial administration (自辟除); uniformly ranked at 100 Shi"
+        },
+        "responsibilities": [
+            "Investigate official corruption across specialized bureaus (Capital, Merit, Mounted Escort, Accounts, Military)",
+            "Inspect provincial commandery documents and impeach unlawful administrators"
+        ],
+        "historical_notes": "Includes specialized officers: Duguan (Capital offenses), Gongcao (Personnel), Biejia (Tour escort), Bucao (Finance), Bingcao (Military), and regional Commandery Inspectors."
+    },
+    {
+        "id": "jia_zuo",
+        "parentId": "sili_xiaowei",
+        "title_ch": "假佐",
+        "title_en": "Temporary Assistants",
+        "title_py": "Jiǎzuǒ",
+        "rank": null,
+        "personnel_count": {
+            "base": 25,
+            "notes": "Filled by seconded local commandery clerks on one-year annual rotations (歲滿一更)"
+        },
+        "responsibilities": [
+            "Maintain office registries, manage documentation, and supervise specialized institutional tests (Confucian Classics, seasonal rituals, statutes)"
+        ],
+        "historical_notes": "Consists of sub-clerical specialists including Gate Chiefs (門亭長), Merit Clerks (門功曹書佐), Classicists (孝經師), Ritualists (月令師), Legalists (律令師), and Commandery Archivists (典郡書佐)."
+    },
+    {
+        "id": "henan_yin",
+        "parentId": "sili_xiaowei",
+        "title_ch": "河南尹",
+        "title_en": "Governor of Henan",
+        "title_py": "Hénán Yǐn",
+        "rank": "2000 Shi",
+        "personnel_count": {
+            "base": 1,
+            "notes": "Granted special court audience privileges (特奉朝請)"
+        },
+        "responsibilities": [
+            "Administer the metropolitan capital commandery of Luoyang and surrounding districts"
+        ],
+        "historical_notes": "During the Western Han, the capital Chang'an was governed by the Three Fu (Jingzhao, Zuofengyi, Youfufeng) ranked at Zhong 2000 Shi. When the Eastern Han moved the capital to Luoyang, Henan Commandery was upgraded to be administered by a Yin (Governor). The Three Fu retained their titles due to imperial tombs but suffered rank reductions."
+    }
+]

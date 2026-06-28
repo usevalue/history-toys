@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bureaucracy Browser</title>
+    <link rel="stylesheet" href="/bureaucracy/bureaucracy_browser.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-flextree@2.1.2/build/d3-flextree.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-org-chart@3.1.1"></script>
+</head>
+
+<body>
+    <header>
+        <div style="font-weight: bold; font-size: 24pt">Bureaucracy Browser</div> 
+        <select id="fileSelector">
+            <option value="officialdom1.json">V1: High Officials</option>
+            <option value="officialdom2.json">V2: Ceremonies and Security</option>
+            <option value="officialdom3.json">V3: Finance</option>
+            <option value="officialdom4.json">V4: Metropolitan Security</option>
+            <option value="officialdom5.json">V5</option>
+        </select><br /><br />
+    </header>
+    <div id="container">
+        <svg id="viz"></svg>
+        <div id="sidebar"></div>
+    </div>
+
+    <script type="module" src="bureaucracy_browser.js"></script>
+</body>
+
+</html>

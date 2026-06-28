@@ -1,0 +1,855 @@
+[
+  {
+    "id": "taifu",
+    "parentId": "emperor",
+    "title_ch": "太傅",
+    "title_en": "Grand Tutor",
+    "title_py": "Tàifù",
+    "rank": "Shang Gong",
+    "personnel_count": {
+      "base": 1,
+      "notes": "One person"
+    },
+    "responsibilities": [
+      "Responsible for guiding with virtue",
+      "No fixed operational duties",
+      "Oversaw the affairs of the Masters of Writing (Lu Shangshu Shi) upon appointment at an emperor's ascension"
+    ],
+    "historical_notes": "Emperor Shizu appointed Zhuo Mao as Taifu; after his death, the position was abolished. Afterward, whenever a new emperor ascended the throne, a Taifu would be appointed to oversee Shangshu affairs, and upon his death, the position was again abolished."
+  },
+  {
+    "id": "taiwei",
+    "parentId": "emperor",
+    "title_ch": "太尉",
+    "title_en": "Grand Marshal",
+    "title_py": "Tàiwèi",
+    "rank": "Gong",
+    "personnel_count": {
+      "base": 1,
+      "notes": "One senior official"
+    },
+    "responsibilities": [
+      "In charge of military affairs and performance evaluations for all directions",
+      "Submits a report on the best and worst performers at the end of each year to execute rewards and punishments",
+      "Responsible for the second offering (ya xian) during suburban sacrifices",
+      "Announces the posthumous title at the southern suburb during a grand imperial funeral",
+      "Discusses major state constructions or uncertainties jointly with the Situ and Sikong",
+      "Jointly advises and remonstrates with the Situ and Sikong if the state commits a serious error"
+    ],
+    "historical_notes": "When Emperor Shizu ascended the throne, this position was known as Daisima (Grand Commander). In the 27th year of the Jianwu reign period (31 AD), it was renamed Taiwei."
+  },
+  {
+    "id": "taiwei_changshi",
+    "parentId": "taiwei",
+    "title_ch": "長史",
+    "title_en": "Chief Administrator",
+    "title_py": "Zhǎngshǐ",
+    "rank": "1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": "One person"
+    },
+    "responsibilities": [
+      "In charge of overseeing the affairs of various departments (诸曹)"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_yuanshi",
+    "parentId": "taiwei",
+    "title_ch": "掾史屬",
+    "title_en": "Bureau Heads and Subordinates",
+    "title_py": "Yuànshǐshǔ",
+    "rank": "Equivalent to 400 Shi, 300 Shi, or 200 Shi historically; generally considered 100 Shi later",
+    "personnel_count": {
+      "base": 24,
+      "notes": "Twenty-four yuanshi and subordinates"
+    },
+    "responsibilities": [
+      "Act as the functional administrative staff (gongfu yuan) of the Grand Marshal's office, divided across functional departments"
+    ],
+    "historical_notes": "According to the old Han system, Eastern and Western Cao yuans were ranked equivalent to 400 dan, other yuans as 300 dan, and shus as 200 dan (comparable to ancient yuanshi of three ranks). Early on, appointments were reported upward, giving them official standing. Later, officials directly appointed them themselves, and they became generally ranked as 100 dan."
+  },
+  {
+    "id": "taiwei_xi_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "西曹",
+    "title_en": "Western Department",
+    "title_py": "Xīcáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "In charge of managing clerks and appointments within the office"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_dong_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "東曹",
+    "title_en": "Eastern Department",
+    "title_py": "Dōngcáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "Oversees the promotion or removal of senior officials ranked at two thousand dan, as well as military officers"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_hu_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "戶曹",
+    "title_en": "Household Department",
+    "title_py": "Hùcáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "Responsible for civilian households, sacrificial rites, and agriculture and sericulture"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_zou_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "奏曹",
+    "title_en": "Memorials Department",
+    "title_py": "Zòucáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "Handles matters of submitting proposals and deliberations"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_ci_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "辭曹",
+    "title_en": "Lawsuits Department",
+    "title_py": "Cícáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "In charge of handling lawsuits and disputes"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_fa_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "法曹",
+    "title_en": "Statutes Department",
+    "title_py": "Fǎcáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "Oversees postal relays, regulations, and scheduling matters"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_wei_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "尉曹",
+    "title_en": "Transport Department",
+    "title_py": "Wèicáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "Responsible for managing convicts and transportation affairs"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_zei_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "賊曹",
+    "title_en": "Bandits Department",
+    "title_py": "Zéicáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "Handles matters related to bandits and thieves"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_jue_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "決曹",
+    "title_en": "Judicial Department",
+    "title_py": "Juécáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "In charge of legal judgments and penal matters"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_bing_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "兵曹",
+    "title_en": "Military Department",
+    "title_py": "Bīngcáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "Oversees military affairs"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_jin_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "金曹",
+    "title_en": "Currency and Monopolies Department",
+    "title_py": "Jīncáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "Responsible for currency, salt, and iron matters"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_cang_cao",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "倉曹",
+    "title_en": "Granary Department",
+    "title_py": "Cāngcáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "Oversees granary and grain affairs"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_huangge_zhubu",
+    "parentId": "taiwei_yuanshi",
+    "title_ch": "黃閤主簿",
+    "title_en": "Master of Records of the Yellow Chamber",
+    "title_py": "Huánggéz hǔbù",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 24 yuanshi"
+    },
+    "responsibilities": [
+      "In charge of recording and reviewing various administrative matters"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_lingshi_yushu",
+    "parentId": "taiwei",
+    "title_ch": "令史及御屬",
+    "title_en": "Clerks and Attendants",
+    "title_py": "Lìngshǐ jí yùshǔ",
+    "rank": "Historically 100 Shi, later unspecified",
+    "personnel_count": {
+      "base": 23,
+      "notes": "Twenty-three lingshi and yushu"
+    },
+    "responsibilities": [
+      "Manage clerical records, attendants, and office logistics"
+    ],
+    "historical_notes": "According to the old Han records, clerks (gong lingshi) were ranked at 100 dan, but since the revival period onward, their official dan rank was no longer specified."
+  },
+  {
+    "id": "taiwei_yushu",
+    "parentId": "taiwei_lingshi_yushu",
+    "title_ch": "御屬",
+    "title_en": "Attendants",
+    "title_py": "Yùshǔ",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Part of the 23 clerks and attendants"
+    },
+    "responsibilities": [
+      "Responsible for serving as attendants to the Grand Marshal"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_hexia_lingshi",
+    "parentId": "taiwei_lingshi_yushu",
+    "title_ch": "閤下令史",
+    "title_en": "Chamber Clerks",
+    "title_py": "Gézxià lìngshǐ",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Part of the 23 clerks and attendants"
+    },
+    "responsibilities": [
+      "In charge of matters related to ceremonial protocols and dignity within the office"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_jishi_lingshi",
+    "parentId": "taiwei_lingshi_yushu",
+    "title_ch": "記室令史",
+    "title_en": "Secretariat Clerks",
+    "title_py": "Jìshì lìngshǐ",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Part of the 23 clerks and attendants"
+    },
+    "responsibilities": [
+      "Responsible for submitting memorials, reports, and official records"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_men_lingshi",
+    "parentId": "taiwei_lingshi_yushu",
+    "title_ch": "門令史",
+    "title_en": "Gate Clerks",
+    "title_py": "Ménlìngshǐ",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Part of the 23 clerks and attendants"
+    },
+    "responsibilities": [
+      "Oversees the gates of the office"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "taiwei_caowenshu_lingshi",
+    "parentId": "taiwei_lingshi_yushu",
+    "title_ch": "其餘令史",
+    "title_en": "Departmental Clerks",
+    "title_py": "Qíyú lìngshǐ",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "The remaining clerks within the 23"
+    },
+    "responsibilities": [
+      "Each manage the documents and records of their respective departments"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "situ",
+    "parentId": "emperor",
+    "title_ch": "司徒",
+    "title_en": "Minister of Instruction",
+    "title_py": "Sītú",
+    "rank": "Gong",
+    "personnel_count": {
+      "base": 1,
+      "notes": "One senior official"
+    },
+    "responsibilities": [
+      "In charge of managing the people and civil affairs",
+      "Oversees public education in filial piety, fraternal respect, humility, obedience, modesty, and frugality",
+      "Deliberates on regulations and establishes standards for nurturing life and handling funerals",
+      "Submits annual performance evaluations of civil affairs from all directions to execute rewards or punishments",
+      "Inspects sacrificial animals and ensures cleansing protocols are followed during suburban altar sacrifices",
+      "Oversees the safekeeping and placement of the imperial coffin during a grand funeral",
+      "Discusses major uncertainties or important state affairs jointly with the Grand Marshal"
+    ],
+    "historical_notes": "When Emperor Shizu ascended the throne, this office was known as Daisitu (Grand Minister of Instruction). In the 27th year of the Jianwu reign period (31 AD), the word 'Da' was removed, renaming it Situ."
+  },
+  {
+    "id": "situ_changshi",
+    "parentId": "situ",
+    "title_ch": "長史",
+    "title_en": "Chief Administrator of the Minister of Instruction",
+    "title_py": "Zhǎngshǐ",
+    "rank": "1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": "One person"
+    },
+    "responsibilities": [
+      "Assists the Minister of Instruction in managing the affairs of the various departments and overseeing staff"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "situ_yuanshu",
+    "parentId": "situ",
+    "title_ch": "掾屬",
+    "title_en": "Bureau Heads and Subordinates of the Minister of Instruction",
+    "title_py": "Yuànshǔ",
+    "rank": null,
+    "personnel_count": {
+      "base": 31,
+      "notes": "Thirty-one bureau heads and subordinates"
+    },
+    "responsibilities": [
+      "Manage specific functional departments handling civil administration, education, and evaluations within the office"
+    ],
+    "historical_notes": "When Emperor Shizu ascended the throne, following the precedent of Emperor Wu, he established the position of Sizhi (Rectifier of State) within the Chancellor's office to assist in supervising and recording matters from various provinces. This position was abolished in the 18th year of the Jianwu reign period."
+  },
+  {
+    "id": "situ_lingshi_yushu",
+    "parentId": "situ",
+    "title_ch": "令史及御屬",
+    "title_en": "Clerks and Attendants of the Minister of Instruction",
+    "title_py": "Lìngshǐ jí yùshǔ",
+    "rank": null,
+    "personnel_count": {
+      "base": 36,
+      "notes": "Thirty-six clerks and attendants"
+    },
+    "responsibilities": [
+      "In charge of managing official records and documents of the departments, and serving as personal attendants"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "sikong",
+    "parentId": "emperor",
+    "title_ch": "司空",
+    "title_en": "Minister of Works",
+    "title_py": "Sīkōng",
+    "rank": "Gong",
+    "personnel_count": {
+      "base": 1,
+      "notes": "One senior official"
+    },
+    "responsibilities": [
+      "In charge of water and land affairs",
+      "Deliberates on benefits and establishes implementation plans for constructing cities, building towns, dredging ditches, and repairing embankments",
+      "Submits annual performance reports on water and land management tasks from all directions to carry out rewards or punishments",
+      "Responsible for cleaning and preparing musical instruments during suburban sacrifices",
+      "Oversees the final earth-covering and reburial of remains during a grand funeral",
+      "Advises and remonstrates jointly with the Grand Marshal (Taiwei) during significant constructions or uncertainties in state affairs"
+    ],
+    "historical_notes": "When Emperor Shizu ascended the throne, this position was known as Daisikong (Grand Minister of Works). In the 27th year of the Jianwu reign period (31 AD), the word 'Da' was removed, renaming it Sikong."
+  },
+  {
+    "id": "sikong_changshi",
+    "parentId": "sikong",
+    "title_ch": "長史",
+    "title_en": "Chief Administrator of the Minister of Works",
+    "title_py": "Zhǎngshǐ",
+    "rank": "1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": "One assistant person"
+    },
+    "responsibilities": [
+      "Assists the Minister of Works in overseeing the administration of various departments and staff within the office"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "sikong_yuanshu",
+    "parentId": "sikong",
+    "title_ch": "掾屬",
+    "title_en": "Bureau Heads and Subordinates of the Minister of Works",
+    "title_py": "Yuànshǔ",
+    "rank": null,
+    "personnel_count": {
+      "base": 29,
+      "notes": "Twenty-nine bureau heads and subordinates"
+    },
+    "responsibilities": [
+      "Manage functional departments specialized in civil engineering, water conservancy, and performance evaluations"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "sikong_lingshi_yushu",
+    "parentId": "sikong",
+    "title_ch": "令史及御屬",
+    "title_en": "Clerks and Attendants of the Minister of Works",
+    "title_py": "Lìngshǐ jí yùshǔ",
+    "rank": null,
+    "personnel_count": {
+      "base": 42,
+      "notes": "Forty-two clerks and attendants"
+    },
+    "responsibilities": [
+      "Responsible for administrative documentation, records processing, and acting as personal attendants"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "jiangjun",
+    "parentId": "emperor",
+    "title_ch": "將軍",
+    "title_en": "General",
+    "title_py": "Jiāngjūn",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Not a permanent position; appointed as needed"
+    },
+    "responsibilities": [
+      "In charge of waging military campaigns against rebellion and betrayal"
+    ],
+    "historical_notes": "Originating in the Qin and Jin dynasties as a senior official title, it was not a permanent post in the Eastern Han. Generals were appointed for specific military campaigns and usually dismissed upon completion of their missions. Later, during periods of political decline, it became a regular capital appointment often given to consort clans."
+  },
+  {
+    "id": "dajiangjun",
+    "parentId": "jiangjun",
+    "title_ch": "大將軍",
+    "title_en": "General-in-Chief",
+    "title_py": "Dàjiāngjūn",
+    "rank": "Bi Gong / Above Gong",
+    "personnel_count": {
+      "base": null,
+      "notes": "Ranked first among the four senior general ranks"
+    },
+    "responsibilities": [
+      "In charge of major military campaigns and strategic defense",
+      "Remained in the capital to oversee military affairs during later periods"
+    ],
+    "historical_notes": "First created by Emperor Wu for Wei Qing with the title Daisima prefixed to rank above the Three Dukes. During the Eastern Han, its rank fluctuated from below the Three Dukes under Emperor Shizu, to above them under Emperor He, and eventually became fully equivalent to the Three Dukes as a permanent capital post for consort relatives from Emperor Shun's reign onward."
+  },
+  {
+    "id": "piaoqi_jiangjun",
+    "parentId": "jiangjun",
+    "title_ch": "標騎將軍",
+    "title_en": "General of Agile Cavalry",
+    "title_py": "Piáoqí jiāngjūn",
+    "rank": "Bi Gong / Above Gong",
+    "personnel_count": {
+      "base": null,
+      "notes": "Ranked second among the four senior general ranks"
+    },
+    "responsibilities": [
+      "In charge of military expeditions and campaigns"
+    ],
+    "historical_notes": "Held by Jing Dan during Emperor Shizu's reign, ranked below the Three Dukes. Emperor Ming appointed his brother, Dongping Wang Cang, to this post, placing it above the Three Dukes due to his royal status, but it was abolished a few years later."
+  },
+  {
+    "id": "cheqi_jiangjun",
+    "parentId": "jiangjun",
+    "title_ch": "車騎將軍",
+    "title_en": "General of Chariots and Cavalry",
+    "title_py": "Chēqí jiāngjūn",
+    "rank": "Bi Gong",
+    "personnel_count": {
+      "base": null,
+      "notes": "Ranked third among the four senior general ranks"
+    },
+    "responsibilities": [
+      "In charge of specific military expeditions and border defense"
+    ],
+    "historical_notes": "Appointed transiently for border campaigns; Ma Fang was appointed acting general to fight the Western Qiang under Emperor Zhang; Dou Xian held it to campaign against the Xiongnu under Emperor He; Deng Zhi held it to campaign against the Qiang under Emperor An. These posts were typically abolished upon the return of the expeditions."
+  },
+  {
+    "id": "wei_jiangjun",
+    "parentId": "jiangjun",
+    "title_ch": "衛將軍",
+    "title_en": "General of the Guards",
+    "title_py": "Wèi jiāngjūn",
+    "rank": "Bi Gong",
+    "personnel_count": {
+      "base": null,
+      "notes": "Ranked fourth among the four senior general ranks"
+    },
+    "responsibilities": [
+      "In charge of military campaigns and guard operations"
+    ],
+    "historical_notes": "One of the four ranks comparable to the Three Dukes, temporary appointment for military necessities."
+  },
+  {
+    "id": "tsa_hao_jiangjun",
+    "parentId": "jiangjun",
+    "title_ch": "雜號將軍",
+    "title_en": "Generals of Miscellaneous Titles",
+    "title_py": "Záhào jiāngjūn",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Includes Front, Rear, Left, and Right Generals, and others"
+    },
+    "responsibilities": [
+      "Command military campaigns; dismissed upon completion of their assignments"
+    ],
+    "historical_notes": "Numerous miscellaneous generals existed during the revival period under Shizu for military campaigns. Most had no permanent staff and were completely disbanded once peace was restored."
+  },
+  {
+    "id": "duoliao_jiangjun",
+    "parentId": "tsa_hao_jiangjun",
+    "title_ch": "度遼將軍",
+    "title_en": "General Who Crosses the Liao",
+    "title_py": "Dùliáo jiāngjūn",
+    "rank": null,
+    "personnel_count": {
+      "base": 1,
+      "notes": "First established under Emperor Ming"
+    },
+    "responsibilities": [
+      "Guards against and monitors the newly surrendered Southern Chanyu and his followers due to suspicions of divided loyalty"
+    ],
+    "historical_notes": "Initially established by Emperor Ming as a temporary measure due to unrest among the Southern Chanyu's forces, but later converted into a permanent garrison command post."
+  },
+  {
+    "id": "jiangjun_changshi",
+    "parentId": "jiangjun",
+    "title_ch": "長史",
+    "title_en": "Chief Administrator to the General",
+    "title_py": "Zhǎngshǐ",
+    "rank": "1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": "One person per General's office"
+    },
+    "responsibilities": [
+      "Manages the overall administrative affairs of the General's office"
+    ],
+    "historical_notes": "Part of the permanent staff structure for established General offices."
+  },
+  {
+    "id": "jiangjun_sima",
+    "parentId": "jiangjun",
+    "title_ch": "司馬",
+    "title_en": "Command Sima",
+    "title_py": "Sīmǎ",
+    "rank": "1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": "One person per General's office"
+    },
+    "responsibilities": [
+      "In charge of military and operational matters, similar to the functions of the Grand Marshal (Taiwei)"
+    ],
+    "historical_notes": "The primary military executive within the General's central headquarters."
+  },
+  {
+    "id": "jiangjun_congshi_zhonglang",
+    "parentId": "jiangjun",
+    "title_ch": "從事中郎",
+    "title_en": "Attendant Gentleman-of-the-Palace",
+    "title_py": "Cóngshì zhōngláng",
+    "rank": "600 Shi",
+    "personnel_count": {
+      "base": 2,
+      "notes": "Two persons per General's office"
+    },
+    "responsibilities": [
+      "Participate in military deliberations, strategic planning, and advisory councils"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "jiangjun_yuanshu",
+    "parentId": "jiangjun",
+    "title_ch": "掾屬",
+    "title_en": "Bureau Heads and Subordinates of the General",
+    "title_py": "Yuànshǔ",
+    "rank": null,
+    "personnel_count": {
+      "base": 29,
+      "notes": "Twenty-nine bureau heads and subordinates"
+    },
+    "responsibilities": [
+      "Staff the functional military administrative departments within the office"
+    ],
+    "historical_notes": "Includes specialized departments like the Military Affairs Bureau (Bingcao) and Rations Bureau (Binjiacao)."
+  },
+  {
+    "id": "jiangjun_bingcao",
+    "parentId": "jiangjun_yuanshu",
+    "title_ch": "兵曹",
+    "title_en": "Military Affairs Bureau",
+    "title_py": "Bīngcáo",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 29 yuanshu"
+    },
+    "responsibilities": [
+      "Responsible for managing military operations and weaponry equipment"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "jiangjun_binjia",
+    "parentId": "jiangjun_yuanshu",
+    "title_ch": "稟假",
+    "title_en": "Rations and Discipline Bureau",
+    "title_py": "Bǐnjiǎ",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Staffed out of the 29 yuanshu"
+    },
+    "responsibilities": [
+      "Oversees the distribution of rations, leave requests, and enforces discipline and prohibitions"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "jiangjun_lingshi_yushu",
+    "parentId": "jiangjun",
+    "title_ch": "令史及御屬",
+    "title_en": "Clerks and Attendants of the General",
+    "title_py": "Lìngshǐ jí yùshǔ",
+    "rank": null,
+    "personnel_count": {
+      "base": 31,
+      "notes": "Thirty-one clerks and attendants"
+    },
+    "responsibilities": [
+      "In charge of clerical records, processing documents, and acting as attendants or guards"
+    ],
+    "historical_notes": "Completes the administrative civil staff of the General's office."
+  },
+  {
+    "id": "jiangjun_staff_others",
+    "parentId": "jiangjun",
+    "title_ch": "其他職吏",
+    "title_en": "Specialized Camp Officers",
+    "title_py": "Qítā zhílì",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Includes camp managers, guards, and judicial officers"
+    },
+    "responsibilities": [
+      "Collectively manage camp logistics, security, and criminal law enforcement"
+    ],
+    "historical_notes": "Consists of specialized officers assigned to camp commands: Zhilijiubang (one per department to manage camp affairs), Woci and Cijian (criminal law), and 30 official horsemen with ceremonial drummers."
+  },
+  {
+    "id": "jiao_wei",
+    "parentId": "dajiangjun",
+    "title_ch": "部校尉",
+    "title_en": "Division Colonel",
+    "title_py": "Bù xiàowèi",
+    "rank": "Bi 2000 Shi",
+    "personnel_count": {
+      "base": 5,
+      "notes": "Five Division Colonels under the General-in-Chief's camp"
+    },
+    "responsibilities": [
+      "Commands one of the five major divisions (Bu) making up the General-in-Chief's field army"
+    ],
+    "historical_notes": "The General-in-Chief's central army was standardly organized into five divisions. If a division was not assigned a Colonel, it was instead commanded directly by a Military Sima."
+  },
+  {
+    "id": "jun_sima",
+    "parentId": "jiao_wei",
+    "title_ch": "軍司馬",
+    "title_en": "Division Military Sima",
+    "title_py": "Jūn sīmǎ",
+    "rank": "Bi 1000 Shi",
+    "personnel_count": {
+      "base": 1,
+      "notes": "One per division; also acts as division commander if no Colonel is appointed"
+    },
+    "responsibilities": [
+      "Serves as the executive officer and second-in-command of a division (Bu)",
+      "Assisted by a Military Adjutant Sima (Jun Jia Sima) as a deputy"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "biebu_sima",
+    "parentId": "dajiangjun",
+    "title_ch": "別部司馬",
+    "title_en": "Sima of a Separate Detachment",
+    "title_py": "Biébù sīmǎ",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Number varies based on tactical needs"
+    },
+    "responsibilities": [
+      "Commands a detached or independent unit outside the main five divisions; troop size varies depending on current circumstances"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "junhou",
+    "parentId": "jun_sima",
+    "title_ch": "軍候",
+    "title_en": "Unit Marquis",
+    "title_py": "Jūn hòu",
+    "rank": "Bi 600 Shi",
+    "personnel_count": {
+      "base": null,
+      "notes": "One per Unit (Qu)"
+    },
+    "responsibilities": [
+      "Commands a tactical unit called a Qu underneath a division",
+      "Assisted by an Adjutant Marquis (Jia Hou) as a deputy"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "menhou",
+    "parentId": "jun_sima",
+    "title_ch": "門候",
+    "title_en": "Gate Officer",
+    "title_py": "Mén hòu",
+    "rank": null,
+    "personnel_count": {
+      "base": null,
+      "notes": "Assigned to division or camp gates"
+    },
+    "responsibilities": [
+      "Responsible for guarding and managing security at the camp gates"
+    ],
+    "historical_notes": ""
+  },
+  {
+    "id": "chun_zhang",
+    "parentId": "junhou",
+    "title_ch": "純長",
+    "title_en": "Subunit Chief",
+    "title_py": "Chún zhǎng",
+    "rank": "Bi 200 Shi",
+    "personnel_count": {
+      "base": null,
+      "notes": "One per Subunit (Chun)"
+    },
+    "responsibilities": [
+      "Commands the lowest tactical subunit called a Chun underneath a Qu"
+    ],
+    "historical_notes": ""
+  }
+]

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simin Yueling Viewer</title>
+    <link rel="stylesheet" href="frontend.css">
+</head>
+
+<body>
+<div class="dashboard">
+    <!-- Left Zone: Rites and Social -->
+    <section id="left-zone" class="zone">
+        <div class="card" id="rites-sacrifices">
+            <h2>Rites and Sacrifices</h2>
+            <div class="content-area"></div>
+        </div>
+        <div class="card" id="social-clan">
+            <h2>Social and Clan Life</h2>
+            <div class="content-area"></div>
+        </div>
+    </section>
+
+    <!-- Center Zone: The Hub -->
+    <section id="center-zone" class="zone">
+        <div id="wheel-placeholder">
+            <svg id="month-wheel" viewBox="0 0 500 500" width="450" height="450">
+                <!-- SVG wedges injected by calendar.js -->
+            </svg>
+        </div>
+    </section>
+
+    <!-- Right Zone: Ag and Commercial -->
+    <section id="right-zone" class="zone">
+        <div class="card" id="agriculture-labor">
+            <h2>Agriculture and Labor</h2>
+            <div class="content-area"></div>
+        </div>
+        <div class="card" id="commercial-activities">
+            <h2>Commercial Activities</h2>
+            <div class="content-area"></div>
+        </div>
+    </section>
+
+    <!-- Bottom Zone: Defense and Health -->
+    <section id="bottom-zone" class="zone">
+        <div class="card" id="estate-defense">
+            <h2>Estate Defense</h2>
+            <div class="content-area"></div>
+        </div>
+        <div class="card" id="health-measures">
+            <h2>Health Measures</h2>
+            <div class="content-area"></div>
+        </div>
+    </section>
+</div>
+
+<script type="module" src="calendar.js"></script>
+</body>
+
+
+</html>

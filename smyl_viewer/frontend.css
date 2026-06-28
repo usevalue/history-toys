@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+header {
+    display: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #4a5568;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    background: white;
+}
+.nav-link:hover { background: #f7fafc; }
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    height: 100%;
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+/* Zone Placements */
+#left-zone { grid-area: 1 / 1 / 3 / 2; }
+#right-zone { grid-area: 1 / 3 / 3 / 4; }
+#center-zone { grid-area: 1 / 2 / 2 / 3; }
+#bottom-zone { grid-area: 2 / 2 / 3 / 3; }
+
+.zone {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Academic Color Palette */
+#rites-sacrifices { background-color: #e8f5e9; border-color: #c8e6c9; } /* Jade */
+#social-clan { background-color: #fff3e0; border-color: #ffe0b2; }      /* Parchment */
+#agriculture-labor { background-color: #e3f2fd; border-color: #bbdefb; } /* Sky/Crop */
+#commercial-activities { background-color: #f3e5f5; border-color: #e1bee7; } /* Lavender */
+#estate-defense { background-color: #eceff1; border-color: #cfd8dc; }   /* Slate */
+#health-measures { background-color: #fce4ec; border-color: #f8bbd0; }   /* Rose */
+
+/* Card Styling */
+.card {
+    flex: 1;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    /* Ensure the card doesn't stretch beyond its grid cell */
+    min-height: 0;
+    overflow: hidden;
+}
+
+.card h2 {
+    margin: 0 0 15px 0;
+    font-size: 1.1rem;
+    color: #37474f; /* Slightly darker for better readability */
+    border-bottom: 2px solid rgba(0,0,0,0.05);
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.content-area {
+    flex: 1;
+    overflow-y: auto; /* Forces scrollbar when content exceeds height */
+    padding-right: 8px; /* Room for scrollbar */
+    font-size: 0.95rem;
+    color: #444;
+}
+
+/* Optional: Style the scrollbar for a cleaner academic look */
+.content-area::-webkit-scrollbar {
+    width: 6px;
+}
+.content-area::-webkit-scrollbar-thumb {
+    background-color: #cbd5e0;
+    border-radius: 3px;
+}
+
+/* Center Hub Placeholder */
+#center-zone {
+    justify-content: center;
+    align-items: center;
+}
+
+#wheel-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.placeholder-circle {
+    width: 320px;
+    height: 320px;
+    background: transparent; /* Changed from white for better SVG contrast */
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#month-wheel {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#month-wheel:hover {
+    transform: scale(1.05);
+}
+
+.month-wedge {
+    transition: transform 0.2s ease-out;
+}
+
+.month-wedge:hover {
+    transform: scale(1.04);
+    filter: brightness(1.1); /* Subtle highlight effect */
+}
+
+/* Ensure the path inside the group is clickable */
+.month-wedge path {
+    pointer-events: all;
+}
+
+/* Remove or update these if you no longer need them */
+#month-selector {
+    display: none;
+}
+/* Specific zone adjustments */
+#bottom-zone {
+    flex-direction: row; /* Categories side-by-side in bottom zone */
+}
+
+#about-button {
+    cursor: pointer;
+}
+
+#about-button:hover {
+    transform: none; /* Disable the scaling effect */
+}
+
+#about-button circle {
+    stroke: #cbd5e0;
+    stroke-width: 2px;
+}
+

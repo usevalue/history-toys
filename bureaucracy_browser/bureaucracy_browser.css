@@ -1,0 +1,17 @@
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    text-align: center
+}
+
+#container { display: flex; }
+
+#viz { flex-grow: 1; height: 85vh; background: #fdf6e3; }
+
+#sidebar { width: 400px; padding: 20px; border-left: 1px solid #ccc; overflow-y: auto; }
+
+.node circle { fill: #268bd2; stroke: #fff; stroke-width: 1.5px; }
+
+.link { stroke: #93a1a1; stroke-opacity: 0.6; }

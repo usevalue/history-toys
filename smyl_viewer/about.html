@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About | Simin Yueling</title>
+    <link rel="stylesheet" href="frontend.css">
+    <style>
+        .page-container { max-width: 800px; margin: 50px auto; padding: 40px; background: white; border-radius: 12px; border: 1px solid #e0e0e0; }
+        .back-btn { display: inline-block; margin-bottom: 20px; color: #4a5568; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <a href="index.html" class="back-btn">← Back to Calendar</a>
+        <h1>About the Project</h1>
+        <p>This calendar was developed as part of a wider personal research effort on the Later Han Dynasty.  It takes the translation of Cui Shi's 2nd century <a href="http://www.chinaknowledge.de/Literature/Science/siminyueling.html">Simin Yueling</a> (or Ts'ui's Ssu-Min-Y&uuml;eh-Ling, following the Wade-Giles convention of the translation) found in Cho-yun Hsu's "Han Agriculture: The Formation of Early Chinese Agrarian Economy (206 B.C. - A.D. 220)" and remixes it as an interactive calendar.  The individual categories were influenced by Patricia Ebrey's "Estate and Family Management in the Later Han as Seen in the Monthly Instructions for the Four Classes of People."</p>
+
+        <p>To turn Cho-yun Hsu's translation into the interactive calendar, I passed a scan of the document through Google's <a href="https://en.wikipedia.org/wiki/Gemini_(language_model)">Gemini</a> and had it categorize the text into the six buckets visible on the main calendar screen.  The little ID tags are the translator's own, but when a single entry included multiple diverging instructions, I divided it.  This is visible (and perhaps debatable) in month 1, where the first entry on the new year is split into ritual and social obligations.  I cannot in every case defend these subdivisions or the lack of them.  They remain as an artifact of the cognitive offloading the AI allowed me to perform.  At the same time, the AI provided me with a list of ambiguous cases, month by month, allowing me to fine tune and adjust the overall boundaries of the categories.  I stand by the decision to classify certain productive activities as ritual.  For example, A.11.a (month 1, rites and sacrifices) reads, "The [head of the household] orders the one in charge of food in person to brew spring wine reverently and cleanly for provisions for the offering at the summer sacrifices."  While certain instances of the model flagged these as agricultural activities, the rule I set was that when the master of the estate must personally oversee an activity and/or the activity must be carried out with reverence, and that the product of the activity is intended for purely ritual purposes, it's a ritual activity.  Ritual is a slippery category in the Simin Yueling, as are family obligation and productivity.  The only clear division that Cui Shi makes in the text is that commercial activities are generally pushed towards the end of the text (with the exception of the purchase of sandals in month 8).  I have retained Cho-yun Hsu's line numbering scheme so that you can see where different instructions were initially grouped together and where they appeared in the text.  The ommission of D.5 in month 4 is [sic].</p>
+        
+        <h2>Sources & Citations</h2>
+        <ul>
+            <li><strong>Cui Shi</strong>. <em>Simin Yueling</em> (Monthly Instructions for the Four Classes of People). In Hsu, Cho-yun. <em>Han Agriculture: The Formation of Early Chinese Agrarian Economy (206 B.C. - A.D. 220)</em>. University of Washington Press, 1980.</li>
+            <li><strong>Ebrey, Patricia</strong>. "Estate and Family Management in the Later Han as Seen in the Monthly Instructions for the Four Classes of People." <em>Journal of the Economic and Social History of the Orient</em> 17, no. 2 (1974): 173-205.</li>
+            <li><strong>Fan Ye</strong>. "Cui Yin Lie Zhuan" (Biography of Cui Yin). In <em>Hou Han Shu</em> (Book of the Later Han). Accessed via <em>Chinese Text Project</em>, https://ctext.org/hou-han-shu/cui-yin-lie-zhuan.</li>
+        </ul>
+    </div>
+</body>
+</html>

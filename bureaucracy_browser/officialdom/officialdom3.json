@@ -1,0 +1,1337 @@
+[
+    {
+      "id": "zongzheng",
+      "parentId": "emperor",
+      "title_ch": "宗正",
+      "title_en": "Director of the Imperial Clan",
+      "title_py": "Zōngzhèng",
+      "rank": "Zhong 2000 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Recording the order of legitimate and illegitimate descendants within royal kingdoms.",
+        "Managing the closeness or distance of relationships among all members of the imperial clan.",
+        "Receiving and processing annual nominal rolls and lineages submitted by commanderies and kingdoms.",
+        "Reviewing legal cases involving imperial clan members facing punishments of head-shaving (kun) or higher, and reporting them to the Emperor for final judgement."
+      ],
+      "historical_notes": "During the Eastern Han Restoration (Zhongxing), the positions of Director and Assistant of the Grand Works Office (Du Sikong Ling/Cheng) under its jurisdiction were abolished."
+    },
+    {
+      "id": "zongzheng_cheng",
+      "parentId": "zongzheng",
+      "title_ch": "丞",
+      "title_en": "Assistant to the Director of the Imperial Clan",
+      "title_py": "Chéng",
+      "rank": "Bi 1000 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Assisting the Director of the Imperial Clan in administrative and judicial duties."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "zhu_gongzhu_jia_ling",
+      "parentId": "zongzheng",
+      "title_ch": "諸公主家令",
+      "title_en": "Princess Household Administrator",
+      "title_py": "Zhū Gōngzhǔ Jiālìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": null,
+        "notes": "One administrator appointed per princess / 每主家令一人"
+      },
+      "responsibilities": [
+        "Managing the domestic and financial affairs of a princess's household."
+      ],
+      "historical_notes": "Subordinate staff under the Household Administrator increased or decreased without fixed quota."
+    },
+    {
+      "id": "zhu_gongzhu_jia_cheng",
+      "parentId": "zhu_gongzhu_jia_ling",
+      "title_ch": "丞",
+      "title_en": "Household Assistant",
+      "title_py": "Chéng",
+      "rank": "300 Shi",
+      "personnel_count": {
+        "base": null,
+        "notes": "One assistant appointed per princess household / 每主一一人"
+      },
+      "responsibilities": [
+        "Assisting the Princess Household Administrator in domestic management."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "dasinong",
+      "parentId": "emperor",
+      "title_ch": "大司農",
+      "title_en": "Minister of Finance",
+      "title_py": "Dàsīnóng",
+      "rank": "Zhong 2000 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing all monetary and grain resources, including gold, silk, and various forms of currency.",
+        "Auditing monthly financial reports on current cash and grain balances submitted by commanderies and kingdoms on the first of each month.",
+        "Tracking and isolating outstanding financial debts and arrears in separate detailed statements.",
+        "Approving and dispatching resource allocations requested by border commanderies, balancing surpluses and deficits across the empire to ensure adequate supply."
+      ],
+      "historical_notes": "Originally, salt and iron offices (yanguan, tieguan) in commanderies and kingdoms belonged to the Da Sinong, but during the Eastern Han Restoration (Zhongxing) they were transferred to local commandery and county jurisdictions. The Director of the Ritual Animal Corral (Linxi Ling), the Market Director of Luoyang, and the Ao Granary official of Xingyang were transferred to the Governor of Henan (Henan Yin). Other agencies, including the Balanced Transportation offices (junshu), were entirely abolished."
+    },
+    {
+      "id": "dasinong_cheng",
+      "parentId": "dasinong",
+      "title_ch": "丞",
+      "title_en": "Assistant to the Minister of Finance",
+      "title_py": "Chéng",
+      "rank": "Bi 1000 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Assisting the Minister of Finance in central administrative and fiscal accounting duties."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "dasinong_bucheng",
+      "parentId": "dasinong",
+      "title_ch": "部丞",
+      "title_en": "Bureau Assistant to the Minister of Finance",
+      "title_py": "Bùchéng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing the central state treasuries, storehouses, and physical vaults."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "taicang_ling",
+      "parentId": "dasinong",
+      "title_ch": "太倉令",
+      "title_en": "Director of the Great Granary",
+      "title_py": "Tàicānglìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Receiving, logging, and storing tribute grain transported via waterways from the commanderies and kingdoms."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "taicang_cheng",
+      "parentId": "taicang_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of the Great Granary",
+      "title_py": "Chéng",
+      "rank": "300 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Assisting the Director of the Great Granary in grain intake and logistics management."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "pingzhun_ling",
+      "parentId": "dasinong",
+      "title_ch": "平準令",
+      "title_en": "Director of Price Stabilization",
+      "title_py": "Píngzhǔnlìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Monitoring market and commodity prices to execute price stabilization operations.",
+        "Managing the boiling, refining, and dyeing of fabrics, and the production of colored textiles."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "pingzhun_cheng",
+      "parentId": "pingzhun_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of Price Stabilization",
+      "title_py": "Chéng",
+      "rank": "300 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Assisting the Director of Price Stabilization in textile workshop operations and market surveillance."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "daoguan_ling",
+      "parentId": "dasinong",
+      "title_ch": "導官令",
+      "title_en": "Director of the Imperial Grain Processing Office",
+      "title_py": "Dǎoguānlìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Supervising the hulling, milling, and selection of fine grain for imperial court consumption.",
+        "Overseeing the manufacture of dried travel provisions and emergency rations."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "daoguan_cheng",
+      "parentId": "daoguan_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of the Imperial Grain Processing Office",
+      "title_py": "Chéng",
+      "rank": "300 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Assisting the Director of the Imperial Grain Processing Office in mill operations."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shaofu",
+      "parentId": "emperor",
+      "title_ch": "少府",
+      "title_en": "Privy Treasury",
+      "title_py": "Shàofǔ",
+      "rank": "Zhong 2000 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing all items used by the Emperor for personal use, including robes, clothing, treasures, precious commodities, and delicacies.",
+        "Overseeing the massive infrastructure of inner court craft production, domestic service, secretariat documentation, and palace security details.",
+        "Collecting and managing imperial private revenues from natural resources (mountain, marsh, pond, and lake taxes) prior to fiscal restructuring."
+      ],
+      "historical_notes": "The Shaofu historically held six central deputies (Cheng), five of which were abolished during the Eastern Han Restoration (Zhongxing). Emperor Shizu instituted sweeping structural updates: the 'forbidden money' taxes from natural resources were reassigned to the Ministry of Finance (Da Sinong); the Office of Works (Kaogong) was moved to the Grand Stables (Taipu); and the Water Management Bureau (Dushui) was delegated to local commanderies. The independent Office of the Director of Imperial Parks (Shuiheng Duwei, ranked Bi 2000 Shi) was entirely abolished and integrated directly into the Shaofu (only resurrected temporarily for a day during the annual autumn hunting rites). Additionally, 10 Shanglin pond supervisors, the directors and assistants of the Imperial Maternity Ward (Baorenchang), and 3 eunuch directors (Huanzhe, Kuntai, Cifei) along with 21 of their deputies were terminated. Conversely, from the Zhanghe era onward, the footprint of inner court eunuchs expanded, creating several concurrent or secondary supervisor roles (Changyao, Taiguan, Yuzhe, Goudun, Shangfang, Kaogong, Biezuojian) at the 600 Shi rank."
+    },
+    {
+      "id": "shaofu_cheng",
+      "parentId": "shaofu",
+      "title_ch": "丞",
+      "title_en": "Assistant to the Privy Treasury",
+      "title_py": "Chéng",
+      "rank": "Bi 1000 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Assisting the Privy Treasury in managing overall palace administration, fiscal accounting, and bureau monitoring."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "taiyi_ling",
+      "parentId": "shaofu",
+      "title_ch": "太醫令",
+      "title_en": "Director of the Imperial Medical Office",
+      "title_py": "Tàiyīlìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Supervising the corps of court physicians and managing medical treatments for the Emperor and the inner palace."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "taiyi_yaocheng",
+      "parentId": "taiyi_ling",
+      "title_ch": "藥丞",
+      "title_en": "Assistant for Medicines",
+      "title_py": "Yàochéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Procuring, inspecting, and managing physical drugs, raw herbs, and medicinal substances."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "taiyi_fangcheng",
+      "parentId": "taiyi_ling",
+      "title_ch": "方丞",
+      "title_en": "Assistant for Prescriptions",
+      "title_py": "Fāngchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Recording, preserving, and checking medical formulas and complex imperial prescriptions."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "taiguan_ling",
+      "parentId": "shaofu",
+      "title_ch": "太官令",
+      "title_en": "Director of the Imperial Kitchen",
+      "title_py": "Tàiguānlìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing the preparation, cooking, and presentation of the Emperor's daily food, beverages, and ceremonial banquets."
+      ],
+      "historical_notes": "The independent Office of the Soup Master (Tangguan Ling) was abolished during the restoration and consolidated as an assistant position under the Imperial Kitchen."
+    },
+    {
+      "id": "taiguan_zuocheng",
+      "parentId": "taiguan_ling",
+      "title_ch": "左丞",
+      "title_en": "Left Assistant",
+      "title_py": "Zuǒchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Overseeing primary food preparation, daily meals, and cooking operations."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "taiguan_gancheng",
+      "parentId": "taiguan_ling",
+      "title_ch": "甘丞",
+      "title_en": "Assistant for Delicacies and Utensils",
+      "title_py": "Gānchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing sweet delicacies, seasonings, and the maintenance of imperial dining utensils."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "taiguan_tangguancheng",
+      "parentId": "taiguan_ling",
+      "title_ch": "湯官丞",
+      "title_en": "Assistant for Soups and Beverages",
+      "title_py": "Tāngguānchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Supervising the brewing of wines, preparation of fine beverages, and herbal soups."
+      ],
+      "historical_notes": "Succeeded the abolished Tangguan Ling."
+    },
+    {
+      "id": "taiguan_guocheng",
+      "parentId": "taiguan_ling",
+      "title_ch": "果丞",
+      "title_en": "Assistant for Fruits",
+      "title_py": "Guǒchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Sourcing and managing fresh and dried fruits for imperial tables and sacrifices."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shougong_ling",
+      "parentId": "shaofu",
+      "title_ch": "守宮令",
+      "title_en": "Director of Palace Supplies",
+      "title_py": "Shǒugōnglìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing personal imperial office materials, including paper, ink, writing brushes, and sealing clay.",
+        "Supplying and coordinating administrative physical assets and accounting materials required by the Central Secretariat."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shougong_cheng",
+      "parentId": "shougong_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of Palace Supplies",
+      "title_py": "Chéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Assisting the Director in organizing stationery distribution and material auditing."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shanglin_yuan_ling",
+      "parentId": "shaofu",
+      "title_ch": "上林苑令",
+      "title_en": "Director of the Shanglin Park",
+      "title_py": "Shànglínyuànlìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing the flora, fauna, and wild animals within the imperial Shanglin hunting preserve.",
+        "Exercising administrative jurisdiction over civilian farming communities residing inside the borders of the park.",
+        "Securing captured game and transferring wild beasts to the Imperial Kitchen."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shanglin_yuan_cheng",
+      "parentId": "shanglin_yuan_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of the Shanglin Park",
+      "title_py": "Chéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Assisting in park logistics, forestry management, and residential oversight."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shanglin_yuan_wei",
+      "parentId": "shanglin_yuan_ling",
+      "title_ch": "尉",
+      "title_en": "Commandant of the Shanglin Park",
+      "title_py": "Wèi",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Enforcing security, policing boundaries, preventing poaching, and maintaining safety within the park."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "yeting_ling",
+      "parentId": "shaofu",
+      "title_ch": "掖庭令",
+      "title_en": "Director of the Side Courts",
+      "title_py": "Yètínglìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Eunuch post. Managing the accounts, registers, and domestic activities of harem concubines (Honorable Ladies and Chosen Women)."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "yeting_zuocheng",
+      "parentId": "yeting_ling",
+      "title_ch": "左丞",
+      "title_en": "Left Assistant",
+      "title_py": "Zuǒchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Assisting in the general administration and logistics of the harem side courts."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "yeting_youcheng",
+      "parentId": "yeting_ling",
+      "title_ch": "右丞",
+      "title_en": "Right Assistant",
+      "title_py": "Yòuchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Assisting in the domestic registries and management of the harem side courts."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "yeting_baoshicheng",
+      "parentId": "yeting_ling",
+      "title_ch": "暴室丞",
+      "title_en": "Assistant for the Drying Room",
+      "title_py": "Bàoshìchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Supervising medical treatment and quarantine facilities for sick women within the inner palace.",
+        "Operating the disciplinary confinement and detention chamber for Empresses or concubines found guilty of legal infractions."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "yongxiang_ling",
+      "parentId": "shaofu",
+      "title_ch": "永巷令",
+      "title_en": "Director of the Palace Lanes",
+      "title_py": "Yǒngxiànglìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Eunuch post. Directing and supervising the massive corps of female palace servants, slaves, and operational maids."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "yongxiang_cheng",
+      "parentId": "yongxiang_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of the Palace Lanes",
+      "title_py": "Chéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Assisting in organizing and deploying female labor across palace projects."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "yufu_ling",
+      "parentId": "shaofu",
+      "title_ch": "御府令",
+      "title_en": "Director of the Imperial Wardrobe",
+      "title_py": "Yùfǔlìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Eunuch post. Managing the workshop production, tailoring, mending, and washing of textiles and apparel for the Emperor's household."
+      ],
+      "historical_notes": "The independent Office of the Weaving Room (Zhishi Ling) was abolished during the restoration and consolidated as an assistant under this bureau."
+    },
+    {
+      "id": "yufu_cheng",
+      "parentId": "yufu_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of the Imperial Wardrobe",
+      "title_py": "Chéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Assisting in the storage and upkeep of imperial garments."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "yufu_zhishicheng",
+      "parentId": "yufu_ling",
+      "title_ch": "織室丞",
+      "title_en": "Assistant for the Weaving Room",
+      "title_py": "Zhīshìchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Supervising female artisans engaged in weaving, embroidering, and fabricating fine cloth."
+      ],
+      "historical_notes": "Replaced the abolished Zhishi Ling."
+    },
+    {
+      "id": "cisi_ling",
+      "parentId": "shaofu",
+      "title_ch": "祠祀令",
+      "title_en": "Director of Minor Sacrifices",
+      "title_py": "Císìlìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Eunuch post. Setting up and conducting minor ancestral offerings, household sacrifices, and specific seasonal religious rites within the interior palace walls."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "cisi_cheng",
+      "parentId": "cisi_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of Minor Sacrifices",
+      "title_py": "Chéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Assisting in religious preparations and storing sacrificial instruments."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "goudun_ling",
+      "parentId": "shaofu",
+      "title_ch": "鉤盾令",
+      "title_en": "Director of Imperial Parks and Ponds",
+      "title_py": "Gōudùnlìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Eunuch post. Overseeing the maintenance, structural upkeep, and security of urban canals, detached gardens, imperial lakes, and leisure resort complexes located around the capital."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "goudun_cheng",
+      "parentId": "goudun_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of Imperial Parks and Ponds",
+      "title_py": "Chéng",
+      "rank": "300 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Assisting in core administrative accounting and park labor tracking."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "goudun_yongan_cheng",
+      "parentId": "goudun_ling",
+      "title_ch": "永安丞",
+      "title_en": "Assistant for the Yong'an Palace Park",
+      "title_py": "Yǒng'ānchéng",
+      "rank": "300 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Managing the detached Yong'an palace estate and its gardens situated northeast of the Northern Palace."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "goudun_yuanzhong_cheng",
+      "parentId": "goudun_ling",
+      "title_ch": "苑中丞",
+      "title_en": "Assistant for Internal Pavilions",
+      "title_py": "Yuànzhōngchéng",
+      "rank": "200 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing detached pavilions, resting villas, and inner lounges built across the gardens."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "goudun_guocheng",
+      "parentId": "goudun_ling",
+      "title_ch": "果丞",
+      "title_en": "Assistant for Orchards",
+      "title_py": "Guǒchéng",
+      "rank": "200 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Supervising cultivation, harvesting, and maintenance within designated palace orchards."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "goudun_hongchi_cheng",
+      "parentId": "goudun_ling",
+      "title_ch": "鴻池丞",
+      "title_en": "Assistant for Hongchi Pond",
+      "title_py": "Hóngchíchéng",
+      "rank": "200 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing the imperial Hongchi estate and reservation located twenty li east of Luoyang."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "goudun_nanyuan_cheng",
+      "parentId": "goudun_ling",
+      "title_ch": "南園丞",
+      "title_en": "Assistant for the Southern Garden",
+      "title_py": "Nányuánchéng",
+      "rank": "200 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing the plants and landscaping of the Southern Garden situated south of the Luo River."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "goudun_zhuolong_jian",
+      "parentId": "goudun_ling",
+      "title_ch": "過龍監",
+      "title_en": "Supervisor of the Zhuolong Garden",
+      "title_py": "Zhuólóngjiān",
+      "rank": "400 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Directly inspecting the Zhuolong garden reservation positioned immediately adjacent to the Northern Palace."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "goudun_zhili_jian",
+      "parentId": "goudun_ling",
+      "title_ch": "直里監",
+      "title_en": "Supervisor of the Zhili Garden",
+      "title_py": "Zhílǐjiān",
+      "rank": "400 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Directly inspecting the Zhili park situated within the southwest corner of Luoyang."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "zhongcangfu_ling",
+      "parentId": "shaofu",
+      "title_ch": "中藏府令",
+      "title_en": "Director of the Inner Treasury",
+      "title_py": "Zhōngcāngfǔlìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing and guarding the Emperor's private cash reserves, fine silks, gold, silver, and precious material goods."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "zhongcangfu_cheng",
+      "parentId": "zhongcangfu_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of the Inner Treasury",
+      "title_py": "Chéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Assisting in regular stockaudits, ledger recording, and storehouse security."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "neizhe_ling",
+      "parentId": "shaofu",
+      "title_ch": "內者令",
+      "title_en": "Director of the Inner Wardrobe Ward",
+      "title_py": "Nèizhělìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing, unpacking, presenting, and properly arranging raw cloth fabrics and fine finished garments for the imperial apartments."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "neizhe_zuocheng",
+      "parentId": "neizhe_ling",
+      "title_ch": "左丞",
+      "title_en": "Left Assistant",
+      "title_py": "Zuǒchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Coordinating Left wardrobe displays and cloth inventories."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "neizhe_youcheng",
+      "parentId": "neizhe_ling",
+      "title_ch": "右丞",
+      "title_en": "Right Assistant",
+      "title_py": "Yòuchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Coordinating Right wardrobe storage and garment logs."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shangfang_ling",
+      "parentId": "shaofu",
+      "title_ch": "尚方令",
+      "title_en": "Director of the Imperial Workshop",
+      "title_py": "Shàngfānglìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Supervising master artisans in manufacturing the Emperor's highly specialized ceremonial blades, longswords, and decorative artifacts."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shangfang_cheng",
+      "parentId": "shangfang_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of the Imperial Workshop",
+      "title_py": "Chéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Assisting in manufacturing safety, supply allocation, and evaluating artistic work."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shizhong",
+      "parentId": "shaofu",
+      "title_ch": "侍中",
+      "title_en": "Palace Attendant",
+      "title_py": "Shìzhōng",
+      "rank": "Bi 2000 Shi",
+      "personnel_count": {
+        "base": null,
+        "notes": "No fixed quota / 無員"
+      },
+      "responsibilities": [
+        "Attending directly on either side of the Emperor, guiding ongoing tasks, and providing elite advice and rapid responses to verbal inquiries.",
+        "Providing a highly educated co-rider (Can-cheng) to accompany the Emperor inside his formal carriage during full processions, while other attendants follow behind on horseback."
+      ],
+      "historical_notes": "Originally headed by a Leader (Puye). During the Eastern Han Restoration, this role was converted into a Libationer (Jaijiu), which was intermittently filled or omitted."
+    },
+    {
+      "id": "zhongchangshi",
+      "parentId": "shaofu",
+      "title_ch": "中常侍",
+      "title_en": "Regular Palace Attendant",
+      "title_py": "Zhōngchángshì",
+      "rank": "Bi 2000 Shi",
+      "personnel_count": {
+        "base": null,
+        "notes": "Eunuch, no fixed quota / 宦者，無員"
+      },
+      "responsibilities": [
+        "Eunuch post. Serving in constant personal attendance on the Emperor, following him directly into the innermost apartments, facilitating administrative and domestic tasks, and serving as closer verbal consultants."
+      ],
+      "historical_notes": "The salary tier was originally 1000 Shi, but was upgraded to a rank equivalent to Erqianshi (Bi 2000 Shi)."
+    },
+    {
+      "id": "huangmen_shilang",
+      "parentId": "shaofu",
+      "title_ch": "黃門侍郎",
+      "title_en": "Gentleman Attendant at the Yellow Gate",
+      "title_py": "Huángmén Shìláng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": null,
+        "notes": "No fixed quota / 無員"
+      },
+      "responsibilities": [
+        "Attending close to the imperial presence, handling central information pathways, and acting as standard document liaisons between the inner chambers and outer bureaucracy.",
+        "Guiding feudal vassal kings and foreign envoys to their assigned places upon their entry into formal throne room audiences."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "xiao_huangmen",
+      "parentId": "shaofu",
+      "title_ch": "小黃門",
+      "title_en": "Junior Attendant at the Yellow Gate",
+      "title_py": "Xiǎo Huángmén",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": null,
+        "notes": "Eunuch, no fixed quota / 宦者，無員"
+      },
+      "responsibilities": [
+        "Eunuch post. Running daily documents, messages, and approvals between the inner palace and the Central Secretariat.",
+        "Relaying formal communication across the inner court, the Empress's apartments, and outer departments.",
+        "Dispatched by imperial decree to check on health conditions and convey sympathy whenever princesses or princely queen mothers fell ill."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "huangmen_ling",
+      "parentId": "shaofu",
+      "title_ch": "黃門令",
+      "title_en": "Director of the Yellow Gate",
+      "title_py": "Huángménlìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Eunuch post. Acting as the administrative chief and controller of all operational eunuchs stationed within the palace."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "huangmen_cheng",
+      "parentId": "huangmen_ling",
+      "title_ch": "丞",
+      "title_en": "Assistant Director of the Yellow Gate",
+      "title_py": "Chéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Assisting the Director in maintaining discipline and logging assignments for eunuch personnel."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "huangmen_congcheng",
+      "parentId": "huangmen_ling",
+      "title_ch": "從丞",
+      "title_en": "Retinue Assistant of the Yellow Gate",
+      "title_py": "Cóngchéng",
+      "rank": null,
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Managing the order, alignment, and movement of the eunuch attendants who escort the imperial carriage on tours."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "huangmen_shuzhang",
+      "parentId": "shaofu",
+      "title_ch": "黃門署長",
+      "title_en": "Chief of the Yellow Gate Quarters",
+      "title_py": "Huángmén Shǔzhǎng",
+      "rank": "400 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Eunuch post. Supervising domestic activities and personnel deployment within assigned zones of the Empress's residence."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "huashi_shuzhang",
+      "parentId": "shaofu",
+      "title_ch": "畫室署長",
+      "title_en": "Chief of the Painted Chamber Quarters",
+      "title_py": "Huàshì Shǔzhǎng",
+      "rank": "400 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Eunuch post. Managing operations inside designated sections of the inner empress palace complex."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "yutang_shuzhang",
+      "parentId": "shaofu",
+      "title_ch": "玉堂署長",
+      "title_en": "Chief of the Jade Hall Quarters",
+      "title_py": "Yùtáng Shǔzhǎng",
+      "rank": "400 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Eunuch post. Directing maintenance and safety within the designated Jade Hall rooms of the harem."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "bing_shuzhang",
+      "parentId": "shaofu",
+      "title_ch": "丙署長",
+      "title_en": "Chief of the C-Chamber Quarters",
+      "title_py": "Bǐng Shǔzhǎng",
+      "rank": "400 Shi",
+      "personnel_count": {
+        "base": 7,
+        "notes": "Eunuchs / 宦者"
+      },
+      "responsibilities": [
+        "Eunuch posts. Managing seven specific residential quarters and chambers inside the Empress's apartments."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "zhong_huangmen_rongcong_puye",
+      "parentId": "shaofu",
+      "title_ch": "中黃門冗從僕射",
+      "title_en": "Supervisor of Retinue Attendants of the Central Yellow Gate",
+      "title_py": "Zhōng Huángmén Rǒngcóng Púyè",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": "Eunuch / 宦者"
+      },
+      "responsibilities": [
+        "Eunuch post. Commanding the unassigned retinue attendants and guards of the Central Yellow Gate.",
+        "Providing personal bodyguards and door protection inside the palace; serving as armed equestrian escorts flanking the imperial chariot during outdoor travels."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "zhong_huangmen",
+      "parentId": "shaofu",
+      "title_ch": "中黃門",
+      "title_en": "Central Yellow Gate Attendant",
+      "title_py": "Zhōng Huángmén",
+      "rank": "Bi 300 Shi",
+      "personnel_count": {
+        "base": null,
+        "notes": "Eunuch, no fixed quota / 宦者，無員"
+      },
+      "responsibilities": [
+        "Eunuch post. Executing basic services, message running, and cleaning inside the restricted zone of the forbidden palace."
+      ],
+      "historical_notes": "The position was originally ranked at Bi 100 Shi, but was upgraded to Bi 300 Shi."
+    },
+    {
+      "id": "shangshu_ling",
+      "parentId": "shaofu",
+      "title_ch": "尚書令",
+      "title_en": "Director of the Secretariat",
+      "title_py": "Shàngshūlìng",
+      "rank": "1000 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing administrative official appointments, processing incoming court memorials, and checking executive paperwork across all Secretariat bureaus."
+      ],
+      "historical_notes": "Inherited from the Qin dynasty system. Emperor Wu filled this post with eunuchs, renaming it the Director of the Palace Secretariat (Zhongshu Yezhe Ling). Emperor Cheng returned the role to scholar-officials and restored its original title."
+    },
+    {
+      "id": "shangshu_puye",
+      "parentId": "shangshu_ling",
+      "title_ch": "尚書僕射",
+      "title_en": "Vice Director of the Secretariat",
+      "title_py": "Shàngshū Púyè",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Assisting the Secretariat Director; taking full charge of document submission and processing all state items whenever the Director is absent."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shangshu_liuren",
+      "parentId": "shangshu_ling",
+      "title_ch": "尚書六人",
+      "title_en": "Secretaries of the Six Sections",
+      "title_py": "Shàngshū Liù Rén",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 6,
+        "notes": "One per section / 曹各一人"
+      },
+      "responsibilities": [
+        "Heading the six functional administrative departments (Cao) of the central state: Changshi Cao (handles elite ministers), Erqianshi Cao (split into two sections for provincial administrators), Mincao (handles petitions from minor officers and citizens), and Kecao (split into Southern and Northern Guest sections for foreign diplomacy)."
+      ],
+      "historical_notes": "Emperor Cheng initially created four Secretaries for four Cao. Emperor Shizu preserved the system but split the Erqianshi Cao into two distinct bureaus, and further split the Kecao into the Southern Guest Section (Nanzhuke Cao) and Northern Guest Section (Beizhuke Cao), creating the final six-department structure."
+    },
+    {
+      "id": "shangshu_zuocheng",
+      "parentId": "shangshu_ling",
+      "title_ch": "尚書左丞",
+      "title_en": "Left Assistant of the Secretariat",
+      "title_py": "Shàngshū Zuǒchéng",
+      "rank": "400 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Recording administrative records, logging incoming paperwork, and scheduling executive meetings.",
+        "Managing petitions and official reports submitted by lower bureaucrats and commoners; controlling the dispatch of postal couriers and scribes."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shangshu_youcheng",
+      "parentId": "shangshu_ling",
+      "title_ch": "尚書右丞",
+      "title_en": "Right Assistant of the Secretariat",
+      "title_py": "Shàngshū Yòuchéng",
+      "rank": "400 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Authorizing the use of official seals, distributing sashes, and allocating office materials (paper, ink, brushes) and checking treasury stores."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shangshu_shilang",
+      "parentId": "shangshu_ling",
+      "title_ch": "尚書侍郎",
+      "title_en": "Gentleman of the Secretariat",
+      "title_py": "Shàngshū Shìláng",
+      "rank": "400 Shi",
+      "personnel_count": {
+        "base": 36,
+        "notes": "6 per section / 每曹六人"
+      },
+      "responsibilities": [
+        "Drafting official documents, polishing state paperwork, and composition of imperial decrees within their assigned departments."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shangshu_lingshi",
+      "parentId": "shangshu_ling",
+      "title_ch": "尚書令史",
+      "title_en": "Clerk of the Secretariat",
+      "title_py": "Shàngshū Lìngshǐ",
+      "rank": "200 Shi",
+      "personnel_count": {
+        "base": 21,
+        "notes": "Originally 18 (3 per section), 3 added later for urgent business / 本十八人，後增劇曹三人"
+      },
+      "responsibilities": [
+        "Executing core record-keeping, manual transcription, and clerical tasks for their respective sections."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "fujie_ling",
+      "parentId": "shaofu",
+      "title_ch": "符節令",
+      "title_en": "Director of Tally Insignia",
+      "title_py": "Fújiélìng",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Heading the Tally and Insignia Bureau (Fujie Tai); managing state tallies, imperial credentials, and identification tokens.",
+        "Issuing formal credentials and travel authorizations whenever imperial envoys are dispatched."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shang_fuxi_langzhong",
+      "parentId": "fujie_ling",
+      "title_ch": "尚符璽郎中",
+      "title_en": "Gentleman in Charge of Seals and Tallies",
+      "title_py": "Shàng Fúxǐ Lángzhōng",
+      "rank": null,
+      "personnel_count": {
+        "base": 4,
+        "notes": "Originally 2 stationed inside the palace / 舊二人"
+      },
+      "responsibilities": [
+        "Holding and protecting the imperial seals of state, military tiger tallies, and bamboo verification tallies."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "fujie_lingshi",
+      "parentId": "fujie_ling",
+      "title_ch": "符節令史",
+      "title_en": "Clerk of Tally Insignia",
+      "title_py": "Fújié Lìngshǐ",
+      "rank": "200 Shi",
+      "personnel_count": {
+        "base": null,
+        "notes": null
+      },
+      "responsibilities": [
+        "Handling clerical logs and recording verification token issues."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "yushi_zhongcheng",
+      "parentId": "shaofu",
+      "title_ch": "御史中丞",
+      "title_en": "Palace Assistant Censor-in-Chief",
+      "title_py": "Yùshǐ Zhōngchéng",
+      "rank": "1000 Shi",
+      "personnel_count": {
+        "base": 1,
+        "notes": null
+      },
+      "responsibilities": [
+        "Serving as active head of the Palace Censorate (Yushi Tai). Monitoring palace activities, auditing central and regional departments, and secretly investigating and impeaching illegal actions.",
+        "Acting as absolute supervisor of conduct, decorum, and ritual etiquette enforcement during major state sacrifices, throne room assemblies, and peerage ceremonies."
+      ],
+      "historical_notes": "Originally established as the immediate deputy to the Grand Censor (Yushi Dafu). When the Grand Censor's office was changed into the Minister of Works (Sikong), this post remained in the palace as the head of the Censorate, and was subsequently placed under the Shaofu."
+    },
+    {
+      "id": "zhishu_shiyushi",
+      "parentId": "yushi_zhongcheng",
+      "title_ch": "治書侍御史",
+      "title_en": "Imperial Censor for Law Enforcement",
+      "title_py": "Zhìshū Shìyùshǐ",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 2,
+        "notes": null
+      },
+      "responsibilities": [
+        "Recruited from individuals expertly trained in statutory codes. Evaluating complex legal appeals, disputed lawsuits, and doubtful criminal cases forwarded from across the empire to determine legal accuracy based on codified statutes."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "shiyushi",
+      "parentId": "yushi_zhongcheng",
+      "title_ch": "侍御史",
+      "title_en": "Imperial Censor",
+      "title_py": "Shìyùshǐ",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": 15,
+        "notes": null
+      },
+      "responsibilities": [
+        "Investigating government operations to detect infractions, receiving official denunciations filed against state ministers, and presenting dynamic impeachments against misconduct.",
+        "Providing on-site protocol surveillance during state ceremonies."
+      ],
+      "historical_notes": ""
+    },
+    {
+      "id": "lantai_lingshi",
+      "parentId": "shaofu",
+      "title_ch": "蘭臺令史",
+      "title_en": "Clerk of the Orchid Terrace Archives",
+      "title_py": "Lántái Lìngshǐ",
+      "rank": "600 Shi",
+      "personnel_count": {
+        "base": null,
+        "notes": null
+      },
+      "responsibilities": [
+        "Managing archival histories, receiving and archiving executive memorials, and documenting manufacturing operations and seal logs."
+      ],
+      "historical_notes": ""
+    }
+]
